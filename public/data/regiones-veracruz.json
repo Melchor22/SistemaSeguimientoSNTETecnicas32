@@ -1,0 +1,56 @@
+{
+  "regiones": [
+    {
+      "id": "I",
+      "nombre": "Tantoyuca"
+    },
+    {
+      "id": "II",
+      "nombre": "Huayacocotla"
+    },
+    {
+      "id": "III",
+      "nombre": "Tuxpan"
+    },
+    {
+      "id": "IV",
+      "nombre": "Poza Rica"
+    },
+    {
+      "id": "V",
+      "nombre": "Martínez de la Torre"
+    },
+    {
+      "id": "VI",
+      "nombre": "Xalapa"
+    },
+    {
+      "id": "VII",
+      "nombre": "Coatepec"
+    },
+    {
+      "id": "VIII",
+      "nombre": "Veracruz"
+    },
+    {
+      "id": "IX",
+      "nombre": "Córdoba"
+    },
+    {
+      "id": "X",
+      "nombre": "Orizaba"
+    },
+    {
+      "id": "XI",
+      "nombre": "Cosamaloapan"
+    },
+    {
+      "id": "XII",
+      "nombre": "San Andrés Tuxtla"
+    },
+    {
+      "id": "XIII",
+      "nombre": "Coatzacoalcos"
+    }
+  ]
+}

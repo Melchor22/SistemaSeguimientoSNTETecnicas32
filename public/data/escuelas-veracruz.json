@@ -1,0 +1,6527 @@
+{
+  "entidad": "Veracruz",
+  "fuenteEstructura": "Archivo JSON proporcionado por el usuario",
+  "totalEscuelas": 163,
+  "escuelas": [
+    {
+      "id": "30DST0001B",
+      "cct": "30DST0001B",
+      "nombre": "Secundaria Tecnica Industrial Num. 1",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Veracruz",
+      "localidad": "Veracruz",
+      "domicilio": "Calle Luis G. Urbina",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "colonia",
+      "asentamiento": "Unidad Veracruzana",
+      "codigoPostal": "91712",
+      "latitud": 19.1945,
+      "longitud": -96.15418,
+      "turnos": [
+        "1 - matutino",
+        "2 - vespertino",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0020y",
+      "cctJefaturaSector": "30fjt0005e",
+      "cctRegion": "30adg0060y",
+      "caracteristica1": "servicios",
+      "regionId": "VIII"
+    },
+    {
+      "id": "30DST0002A",
+      "cct": "30DST0002A",
+      "nombre": "Secundaria Tecnica Industrial Num. 2",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Tuxpan",
+      "localidad": "Túxpam de Rodríguez Cano",
+      "domicilio": "Calle Avenidad Independencia",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "colonia",
+      "asentamiento": "Enrique Rodriguez Cano",
+      "codigoPostal": "92880",
+      "latitud": 20.94188,
+      "longitud": -97.37923,
+      "turnos": [
+        "2 - vespertino",
+        "1 - matutino",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0007d",
+      "cctJefaturaSector": "30fjt0002h",
+      "cctRegion": "30adg0010q",
+      "caracteristica1": "servicios",
+      "regionId": "III"
+    },
+    {
+      "id": "30DST0003Z",
+      "cct": "30DST0003Z",
+      "nombre": "Secundaria Tecnica Industrial Num. 3",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Xalapa",
+      "localidad": "Xalapa-enríquez",
+      "domicilio": "Calle Manuel Avila Camacho",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "colonia",
+      "asentamiento": "Xalapa Enriquez Centro",
+      "codigoPostal": "91000",
+      "latitud": 19.53214,
+      "longitud": -96.93268,
+      "turnos": [
+        "1 - matutino",
+        "2 - vespertino",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0005f",
+      "cctJefaturaSector": "30fjt0003g",
+      "cctRegion": "30adg0084h",
+      "caracteristica1": "servicios",
+      "regionId": "VI"
+    },
+    {
+      "id": "30DST0004Z",
+      "cct": "30DST0004Z",
+      "nombre": "Secundaria Tecnica Industrial Num. 89",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "San Juan Evangelista",
+      "localidad": "San Juan Evangelista",
+      "domicilio": "Prolongación Benito Juarez",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "96120",
+      "latitud": 17.89245,
+      "longitud": -95.13669,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0011q",
+      "cctJefaturaSector": "30fjt0006d",
+      "cctRegion": "30adg0089c",
+      "caracteristica1": "servicios",
+      "regionId": "XIII"
+    },
+    {
+      "id": "30DST0005Y",
+      "cct": "30DST0005Y",
+      "nombre": "Secundaria Tecnica Industrial Num. 5",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Cosamaloapan de Carpio",
+      "localidad": "Cosamaloapan",
+      "domicilio": "Calle Alameda Juarez",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "95400",
+      "latitud": 18.36784,
+      "longitud": -95.79274,
+      "turnos": [
+        "1 - matutino",
+        "2 - vespertino",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0009b",
+      "cctJefaturaSector": "30fjt0005e",
+      "cctRegion": "30adg0004f",
+      "caracteristica1": "servicios",
+      "regionId": "XI"
+    },
+    {
+      "id": "30DST0006X",
+      "cct": "30DST0006X",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 6",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Perote",
+      "localidad": "Perote",
+      "domicilio": "Calle Carretera Federal Perote-mexico Kilometro 2.5",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "colonia",
+      "asentamiento": "Azteca",
+      "codigoPostal": "91270",
+      "latitud": 19.55111,
+      "longitud": -97.265,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0015m",
+      "cctJefaturaSector": "30fjt0003g",
+      "cctRegion": "30adg0084h",
+      "caracteristica1": "servicios",
+      "regionId": "VI"
+    },
+    {
+      "id": "30DST0007W",
+      "cct": "30DST0007W",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 7",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Ursulo Galván",
+      "localidad": "Ursulo Galván",
+      "domicilio": "Prolongación 5 de Mayo",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "91662",
+      "latitud": 19.40429,
+      "longitud": -96.36799,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0004g",
+      "cctJefaturaSector": "30fjt0005e",
+      "cctRegion": "30adg0060y",
+      "caracteristica1": "servicios",
+      "regionId": "VI"
+    },
+    {
+      "id": "30DST0008V",
+      "cct": "30DST0008V",
+      "nombre": "Secundaria Tecnica Industrial Num. 8",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Minatitlán",
+      "localidad": "Minatitlán",
+      "domicilio": "Calle Jiquilpan",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "colonia",
+      "asentamiento": "Minatitlan Centro",
+      "codigoPostal": "96730",
+      "latitud": 17.99326,
+      "longitud": -94.55293,
+      "turnos": [
+        "1 - matutino",
+        "2 - vespertino",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0001j",
+      "cctJefaturaSector": "30fjt0006d",
+      "cctRegion": "30adg0070e",
+      "caracteristica1": "servicios",
+      "regionId": "XIII"
+    },
+    {
+      "id": "30DST0009U",
+      "cct": "30DST0009U",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 9",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Chicontepec",
+      "localidad": "Tlacolula",
+      "domicilio": "Prolongación Adalberto Tejeda a P",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "rural",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "92702",
+      "latitud": 21.0927,
+      "longitud": -97.95884,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0003h",
+      "cctJefaturaSector": "30fjt0001i",
+      "cctRegion": "30adg0001i",
+      "caracteristica1": "servicios",
+      "regionId": "I"
+    },
+    {
+      "id": "30DST0010J",
+      "cct": "30DST0010J",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 10",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Tamalín",
+      "localidad": "Saladero",
+      "domicilio": "Calle Orizabaal",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "rural",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "92495",
+      "latitud": 21.4251,
+      "longitud": -97.54944,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0013o",
+      "cctJefaturaSector": "30fjt0001i",
+      "cctRegion": "30adg0010q",
+      "caracteristica1": "servicios",
+      "regionId": "III"
+    },
+    {
+      "id": "30DST0011I",
+      "cct": "30DST0011I",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 11",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Ignacio de la Llave",
+      "localidad": "Ignacio de la Llave",
+      "domicilio": "Prolongación General Miguel Aleman",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "95240",
+      "latitud": 18.71731,
+      "longitud": -95.98733,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0017k",
+      "cctJefaturaSector": "30fjt0005e",
+      "cctRegion": "30adg0060y",
+      "caracteristica1": "servicios",
+      "regionId": "VIII"
+    },
+    {
+      "id": "30DST0012H",
+      "cct": "30DST0012H",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 12",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Tantoyuca",
+      "localidad": "Ixcanelco",
+      "domicilio": "Avenida Lic Adolfo Lopez Mateos",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "rural",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "92101",
+      "latitud": 21.13787,
+      "longitud": -98.19178,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0003h",
+      "cctJefaturaSector": "30fjt0001i",
+      "cctRegion": "30adg0001i",
+      "caracteristica1": "servicios",
+      "regionId": "I"
+    },
+    {
+      "id": "30DST0013G",
+      "cct": "30DST0013G",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 13",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "San Andrés Tuxtla",
+      "localidad": "Sihuapan",
+      "domicilio": "Avenida Tabamex",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "95810",
+      "latitud": 18.44186,
+      "longitud": -95.17685,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0018j",
+      "cctJefaturaSector": "30fjt0005e",
+      "cctRegion": "30adg0060y",
+      "caracteristica1": "servicios",
+      "regionId": "XII"
+    },
+    {
+      "id": "30DST0014F",
+      "cct": "30DST0014F",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 14",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Tamiahua",
+      "localidad": "Tamiahua",
+      "domicilio": "Prolongación Benito Juarez",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "92560",
+      "latitud": 21.28513,
+      "longitud": -97.44734,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0007d",
+      "cctJefaturaSector": "30fjt0002h",
+      "cctRegion": "30adg0010q",
+      "caracteristica1": "servicios",
+      "regionId": "III"
+    },
+    {
+      "id": "30DST0015E",
+      "cct": "30DST0015E",
+      "nombre": "Secundaria Tecnica Industrial Num. 15",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Tierra Blanca",
+      "localidad": "Tierra Blanca",
+      "domicilio": "Calle 25 de Marzo",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "colonia",
+      "asentamiento": "Tierra Blanca el Viejo",
+      "codigoPostal": "95180",
+      "latitud": 18.44418,
+      "longitud": -96.34647,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0021x",
+      "cctJefaturaSector": "30fjt0005e",
+      "cctRegion": "30adg0004f",
+      "caracteristica1": "servicios",
+      "regionId": "XI"
+    },
+    {
+      "id": "30DST0016D",
+      "cct": "30DST0016D",
+      "nombre": "Secundaria Tecnica Industrial Num. 16",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Playa Vicente",
+      "localidad": "Playa Vicente",
+      "domicilio": "Ninguno Ninguno",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "colonia",
+      "asentamiento": "La Florida",
+      "codigoPostal": "95600",
+      "latitud": 17.82691,
+      "longitud": -95.81463,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0009b",
+      "cctJefaturaSector": "30fjt0005e",
+      "cctRegion": "30adg0004f",
+      "caracteristica1": "servicios",
+      "regionId": "XII"
+    },
+    {
+      "id": "30DST0017C",
+      "cct": "30DST0017C",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 17",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Espinal",
+      "localidad": "Entabladero",
+      "domicilio": "Avenida Nicaragua",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "93197",
+      "latitud": 20.27661,
+      "longitud": -97.55067,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0014n",
+      "cctJefaturaSector": "30fjt0002h",
+      "cctRegion": "30adg0020x",
+      "caracteristica1": "servicios",
+      "regionId": "IV"
+    },
+    {
+      "id": "30DST0018B",
+      "cct": "30DST0018B",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 18",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Tihuatlán",
+      "localidad": "La Concepción",
+      "domicilio": "Calle Apartado del Estudiando",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "rural",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "92905",
+      "latitud": 20.64837,
+      "longitud": -97.40289,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0008c",
+      "cctJefaturaSector": "30fjt0002h",
+      "cctRegion": "30adg0010q",
+      "caracteristica1": "servicios",
+      "regionId": "IV"
+    },
+    {
+      "id": "30DST0019A",
+      "cct": "30DST0019A",
+      "nombre": "Secundaria Tecnica Industrial Num. 19",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Coatzacoalcos",
+      "localidad": "Coatzacoalcos",
+      "domicilio": "Calle Bravo",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "colonia",
+      "asentamiento": "Lic. Luis Echeverria Alvarez",
+      "codigoPostal": "96440",
+      "latitud": 18.14035,
+      "longitud": -94.42302,
+      "turnos": [
+        "2 - vespertino",
+        "1 - matutino",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0019i",
+      "cctJefaturaSector": "30fjt0006d",
+      "cctRegion": "30adg0070e",
+      "caracteristica1": "servicios",
+      "regionId": "XIII"
+    },
+    {
+      "id": "30DST0020Q",
+      "cct": "30DST0020Q",
+      "nombre": "Secundaria Tecnica Pesquera Num. 20",
+      "modalidad": "pesquera",
+      "tipo": "escuela",
+      "municipio": "Alvarado",
+      "localidad": "Alvarado",
+      "domicilio": "Calle Niños Heroes de Chapultepec",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "colonia",
+      "asentamiento": "21 de Abril",
+      "codigoPostal": "95275",
+      "latitud": 18.77221,
+      "longitud": -95.76982,
+      "turnos": [
+        "4 - discontinuo",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0018j",
+      "cctJefaturaSector": "30fjt0005e",
+      "cctRegion": "30adg0060y",
+      "caracteristica1": "servicios",
+      "regionId": "VIII"
+    },
+    {
+      "id": "30DST0021P",
+      "cct": "30DST0021P",
+      "nombre": "Secundaria Tecnica Pesquera Num. 21",
+      "modalidad": "pesquera",
+      "tipo": "escuela",
+      "municipio": "Ozuluama de Mascareñas",
+      "localidad": "Belisario Domínguez (san Gregorio)",
+      "domicilio": "Ninguno Ninguno",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "rural",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "92080",
+      "latitud": 21.68455,
+      "longitud": -97.69547,
+      "turnos": [
+        "4 - discontinuo",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0012p",
+      "cctJefaturaSector": "30fjt0001i",
+      "cctRegion": "30adg0010q",
+      "caracteristica1": "servicios",
+      "regionId": "I"
+    },
+    {
+      "id": "30DST0022O",
+      "cct": "30DST0022O",
+      "nombre": "Secundaria Tecnica Pesquera Num. 90",
+      "modalidad": "pesquera",
+      "tipo": "escuela",
+      "municipio": "Nautla",
+      "localidad": "Nautla",
+      "domicilio": "Calle Primero de Junio",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "93800",
+      "latitud": 20.21481,
+      "longitud": -96.77702,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0010r",
+      "cctJefaturaSector": "30fjt0003g",
+      "cctRegion": "30adg0030d",
+      "caracteristica1": "servicios",
+      "regionId": "V"
+    },
+    {
+      "id": "30DST0023N",
+      "cct": "30DST0023N",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 23",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Tlalixcoyan",
+      "localidad": "Piedras Negras",
+      "domicilio": "Calle Carretera Ignacio de la Llave-mata Espino Kilometro 22.5",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "95222",
+      "latitud": 18.76154,
+      "longitud": -96.15718,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0017k",
+      "cctJefaturaSector": "30fjt0005e",
+      "cctRegion": "30adg0060y",
+      "caracteristica1": "servicios",
+      "regionId": "VIII"
+    },
+    {
+      "id": "30DST0024M",
+      "cct": "30DST0024M",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 24",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Juan Rodríguez Clara",
+      "localidad": "Juan Rodríguez Clara",
+      "domicilio": "Calle Miguel Hidalgo",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "colonia",
+      "asentamiento": "Salvador Diaz Miron",
+      "codigoPostal": "95696",
+      "latitud": 17.99274,
+      "longitud": -95.40206,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0009b",
+      "cctJefaturaSector": "30fjt0005e",
+      "cctRegion": "30adg0004f",
+      "caracteristica1": "servicios",
+      "regionId": "XII"
+    },
+    {
+      "id": "30DST0025L",
+      "cct": "30DST0025L",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 25",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Tlalixcoyan",
+      "localidad": "Tlalixcoyan",
+      "domicilio": "Prolongación Benito Juarez",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "95225",
+      "latitud": 18.79826,
+      "longitud": -96.07158,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0017k",
+      "cctJefaturaSector": "30fjt0005e",
+      "cctRegion": "30adg0060y",
+      "caracteristica1": "servicios",
+      "regionId": "VIII"
+    },
+    {
+      "id": "30DST0026K",
+      "cct": "30DST0026K",
+      "nombre": "Secundaria Tecnica Industrial Num. 26",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Veracruz",
+      "localidad": "Veracruz",
+      "domicilio": "Avenida Salvador Diaz Miron",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "colonia",
+      "asentamiento": "Electricistas",
+      "codigoPostal": "91916",
+      "latitud": 19.16855,
+      "longitud": -96.1337,
+      "turnos": [
+        "2 - vespertino",
+        "1 - matutino",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0004g",
+      "cctJefaturaSector": "30fjt0005e",
+      "cctRegion": "30adg0060y",
+      "caracteristica1": "servicios",
+      "regionId": "VIII"
+    },
+    {
+      "id": "30DST0027J",
+      "cct": "30DST0027J",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 27",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Misantla",
+      "localidad": "Arroyo Hondo",
+      "domicilio": "Avenida 5 de Febrero",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "rural",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "93845",
+      "latitud": 20.02481,
+      "longitud": -96.87907,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0010r",
+      "cctJefaturaSector": "30fjt0003g",
+      "cctRegion": "30adg0030d",
+      "caracteristica1": "servicios",
+      "regionId": "V"
+    },
+    {
+      "id": "30DST0028I",
+      "cct": "30DST0028I",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 28",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Pánuco",
+      "localidad": "Nuevo Michoacán (la Michoacana)",
+      "domicilio": "Prolongación Rafael Hernandez Ochoa",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "rural",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "93991",
+      "latitud": 22.34932,
+      "longitud": -98.25606,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0012p",
+      "cctJefaturaSector": "30fjt0001i",
+      "cctRegion": "30adg0001i",
+      "caracteristica1": "servicios",
+      "regionId": "I"
+    },
+    {
+      "id": "30DST0029H",
+      "cct": "30DST0029H",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 29",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Vega de Alatorre",
+      "localidad": "Emilio Carranza",
+      "domicilio": "Calle Gutierrez Zamora",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "93981",
+      "latitud": 19.97654,
+      "longitud": -96.60954,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0010r",
+      "cctJefaturaSector": "30fjt0003g",
+      "cctRegion": "30adg0030d",
+      "caracteristica1": "servicios",
+      "regionId": "V"
+    },
+    {
+      "id": "30DST0030X",
+      "cct": "30DST0030X",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 30",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Jesús Carranza",
+      "localidad": "Jesús Carranza",
+      "domicilio": "Calle Miguel Hidalgo y Costilla",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "96950",
+      "latitud": 17.4401,
+      "longitud": -95.03205,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0011q",
+      "cctJefaturaSector": "30fjt0006d",
+      "cctRegion": "30adg0089c",
+      "caracteristica1": "servicios",
+      "regionId": "XIII"
+    },
+    {
+      "id": "30DST0031W",
+      "cct": "30DST0031W",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 31",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Texistepec",
+      "localidad": "Texistepec",
+      "domicilio": "Calle Hilario C. Salas",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "96180",
+      "latitud": 17.88773,
+      "longitud": -94.81279,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0011q",
+      "cctJefaturaSector": "30fjt0006d",
+      "cctRegion": "30adg0089c",
+      "caracteristica1": "servicios",
+      "regionId": "XIII"
+    },
+    {
+      "id": "30DST0032V",
+      "cct": "30DST0032V",
+      "nombre": "Escuela Secundaria Tecnica Industrial Num. 32",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Cosamaloapan de Carpio",
+      "localidad": "Paraíso Novillero",
+      "domicilio": "Boulevard del Maestro",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "95423",
+      "latitud": 18.25137,
+      "longitud": -95.93374,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0009b",
+      "cctJefaturaSector": "30fjt0005e",
+      "cctRegion": "30adg0004f",
+      "caracteristica1": "servicios",
+      "regionId": "XI"
+    },
+    {
+      "id": "30DST0033U",
+      "cct": "30DST0033U",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 33",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Ixmatlahuacan",
+      "localidad": "Ixmatlahuacan",
+      "domicilio": "Calle Rosario Mora",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "95430",
+      "latitud": 18.45115,
+      "longitud": -95.83059,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0009b",
+      "cctJefaturaSector": "30fjt0005e",
+      "cctRegion": "30adg0004f",
+      "caracteristica1": "servicios",
+      "regionId": "XI"
+    },
+    {
+      "id": "30DST0034T",
+      "cct": "30DST0034T",
+      "nombre": "Secundaria Tecnica Industrial Num. 34",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Soledad de Doblado",
+      "localidad": "Soledad de Doblado",
+      "domicilio": "Avenida Juarez",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "colonia",
+      "asentamiento": "Palito Verde",
+      "codigoPostal": "94242",
+      "latitud": 19.04504,
+      "longitud": -96.41569,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0020y",
+      "cctJefaturaSector": "30fjt0005e",
+      "cctRegion": "30adg0060y",
+      "caracteristica1": "servicios",
+      "regionId": "VIII"
+    },
+    {
+      "id": "30DST0035S",
+      "cct": "30DST0035S",
+      "nombre": "Secundaria Tecnica Industrial Num. 35",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Pánuco",
+      "localidad": "Pánuco",
+      "domicilio": "Calle Plutarco Elias S",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "93999",
+      "latitud": 22.06589,
+      "longitud": -98.1904,
+      "turnos": [
+        "1 - matutino",
+        "2 - vespertino",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0012p",
+      "cctJefaturaSector": "30fjt0001i",
+      "cctRegion": "30adg0001i",
+      "caracteristica1": "servicios",
+      "regionId": "I"
+    },
+    {
+      "id": "30DST0036R",
+      "cct": "30DST0036R",
+      "nombre": "Secundaria Tecnica Industrial Num. 36",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Carlos A. Carrillo",
+      "localidad": "Carlos A. Carrillo",
+      "domicilio": "Calle Marco Antonio Muños",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "colonia",
+      "asentamiento": "Guadalupe",
+      "codigoPostal": "95339",
+      "latitud": 18.38134,
+      "longitud": -95.74599,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0009b",
+      "cctJefaturaSector": "30fjt0005e",
+      "cctRegion": "30adg0004f",
+      "caracteristica1": "servicios",
+      "regionId": "XI"
+    },
+    {
+      "id": "30DST0037Q",
+      "cct": "30DST0037Q",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 37",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Medellín de Bravo",
+      "localidad": "El Mangal",
+      "domicilio": "Calle Carretera Boca del Rio-tinajas",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "rural",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "94270",
+      "latitud": 18.9644,
+      "longitud": -96.18684,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0017k",
+      "cctJefaturaSector": "30fjt0005e",
+      "cctRegion": "30adg0060y",
+      "caracteristica1": "servicios",
+      "regionId": "VIII"
+    },
+    {
+      "id": "30DST0038P",
+      "cct": "30DST0038P",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 38",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Jesús Carranza",
+      "localidad": "Colonia Nuevo Morelos",
+      "domicilio": "Prolongación Avenida 2 de Abril",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "96960",
+      "latitud": 17.52789,
+      "longitud": -95.08631,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0011q",
+      "cctJefaturaSector": "30fjt0006d",
+      "cctRegion": "30adg0089c",
+      "caracteristica1": "servicios",
+      "regionId": "XIII"
+    },
+    {
+      "id": "30DST0039O",
+      "cct": "30DST0039O",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 39",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Coscomatepec",
+      "localidad": "Coscomatepec de Bravo",
+      "domicilio": "Boulevard Nicolar Bravo",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "94140",
+      "latitud": 19.07302,
+      "longitud": -97.04201,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0002i",
+      "cctJefaturaSector": "30fjt0004f",
+      "cctRegion": "30adg0061x",
+      "caracteristica1": "servicios",
+      "regionId": "IX"
+    },
+    {
+      "id": "30DST0040D",
+      "cct": "30DST0040D",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 40",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Las Choapas",
+      "localidad": "Las Choapas",
+      "domicilio": "Calle Teniente Azueta",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "colonia",
+      "asentamiento": "Francisco Villa",
+      "codigoPostal": "96980",
+      "latitud": 17.89955,
+      "longitud": -94.09,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0019i",
+      "cctJefaturaSector": "30fjt0006d",
+      "cctRegion": "30adg0070e",
+      "caracteristica1": "servicios",
+      "regionId": "XIII"
+    },
+    {
+      "id": "30DST0041C",
+      "cct": "30DST0041C",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 41",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Ixhuatlán de Madero",
+      "localidad": "Cacahuatengo",
+      "domicilio": "Calle Carretera Federal Alamo-temapache",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "rural",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "92682",
+      "latitud": 20.78167,
+      "longitud": -98.02974,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0013o",
+      "cctJefaturaSector": "30fjt0001i",
+      "cctRegion": "30adg0010q",
+      "caracteristica1": "servicios",
+      "regionId": "III"
+    },
+    {
+      "id": "30DST0042B",
+      "cct": "30DST0042B",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 42",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Huayacocotla",
+      "localidad": "Huayacocotla",
+      "domicilio": "Carretera Huayacocotla - Yulacingo, Hgo. Km.4.5",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "92600",
+      "latitud": 20.51475,
+      "longitud": -98.50067,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0008c",
+      "cctJefaturaSector": "30fjt0002h",
+      "cctRegion": "30adg0002h",
+      "caracteristica1": "servicios",
+      "regionId": "II"
+    },
+    {
+      "id": "30DST0043A",
+      "cct": "30DST0043A",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 43",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Ixhuatlán de Madero",
+      "localidad": "Pisaflores",
+      "domicilio": "Ampliación Benito Juarez",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "94990",
+      "latitud": 20.60687,
+      "longitud": -97.92387,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0008c",
+      "cctJefaturaSector": "30fjt0002h",
+      "cctRegion": "30adg0010q",
+      "caracteristica1": "servicios",
+      "regionId": "IV"
+    },
+    {
+      "id": "30DST0044Z",
+      "cct": "30DST0044Z",
+      "nombre": "Secundaria Tecnica Industrial Num. 44",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Atoyac",
+      "localidad": "General Miguel Alemán (potrero Nuevo)",
+      "domicilio": "Prolongación Calle Juan Escutia",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "colonia",
+      "asentamiento": "Centro",
+      "codigoPostal": "94964",
+      "latitud": 18.90322,
+      "longitud": -96.78702,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0016l",
+      "cctJefaturaSector": "30fjt0004f",
+      "cctRegion": "30adg0061x",
+      "caracteristica1": "servicios",
+      "regionId": "IX"
+    },
+    {
+      "id": "30DST0045Z",
+      "cct": "30DST0045Z",
+      "nombre": "Secundaria Tecnica Industrial Num. 45",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Lerdo de Tejada",
+      "localidad": "Lerdo de Tejada",
+      "domicilio": "Avenida Marco Antonio Muñoz",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "colonia",
+      "asentamiento": "Jose Maria Martinez",
+      "codigoPostal": "95281",
+      "latitud": 18.63296,
+      "longitud": -95.51527,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0018j",
+      "cctJefaturaSector": "30fjt0005e",
+      "cctRegion": "30adg0060y",
+      "caracteristica1": "servicios",
+      "regionId": "XII"
+    },
+    {
+      "id": "30DST0046Y",
+      "cct": "30DST0046Y",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 46",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Naolinco",
+      "localidad": "Almolonga",
+      "domicilio": "Calle Marco Antonio Muñoz",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "rural",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "91400",
+      "latitud": 19.58933,
+      "longitud": -96.78579,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0015m",
+      "cctJefaturaSector": "30fjt0003g",
+      "cctRegion": "30adg0084h",
+      "caracteristica1": "servicios",
+      "regionId": "VI"
+    },
+    {
+      "id": "30DST0047X",
+      "cct": "30DST0047X",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 47",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Benito Juárez",
+      "localidad": "Benito Juárez",
+      "domicilio": "Avenida Benito Juarez",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "colonia",
+      "asentamiento": "Zona Centro",
+      "codigoPostal": "92601",
+      "latitud": 20.8875,
+      "longitud": -98.20793,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0003h",
+      "cctJefaturaSector": "30fjt0001i",
+      "cctRegion": "30adg0001i",
+      "caracteristica1": "servicios",
+      "regionId": "I"
+    },
+    {
+      "id": "30DST0048W",
+      "cct": "30DST0048W",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 48",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Coyutla",
+      "localidad": "Coyutla",
+      "domicilio": "Calle Hidalgo",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "93140",
+      "latitud": 20.2472,
+      "longitud": -97.66328,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0014n",
+      "cctJefaturaSector": "30fjt0002h",
+      "cctRegion": "30adg0020x",
+      "caracteristica1": "servicios",
+      "regionId": "IV"
+    },
+    {
+      "id": "30DST0049V",
+      "cct": "30DST0049V",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 49",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Tezonapa",
+      "localidad": "Ixtacapa el Chico",
+      "domicilio": "Ninguno Ninguno",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "rural",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "95083",
+      "latitud": 18.4989,
+      "longitud": -96.73946,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0021x",
+      "cctJefaturaSector": "30fjt0005e",
+      "cctRegion": "30adg0061x",
+      "caracteristica1": "servicios",
+      "regionId": "IX"
+    },
+    {
+      "id": "30DST0050K",
+      "cct": "30DST0050K",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 50",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Tlacotepec de Mejía",
+      "localidad": "Tlacotepec de Mejía",
+      "domicilio": "Calle Marco Antonio Muñoz",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "94080",
+      "latitud": 19.19222,
+      "longitud": -96.85861,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0005f",
+      "cctJefaturaSector": "30fjt0003g",
+      "cctRegion": "30adg0061x",
+      "caracteristica1": "servicios",
+      "regionId": "IX"
+    },
+    {
+      "id": "30DST0051J",
+      "cct": "30DST0051J",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 51",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Platón Sánchez",
+      "localidad": "Platón Sánchez",
+      "domicilio": "Carretera a Zacatianguis Km. 3",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "92132",
+      "latitud": 21.28298,
+      "longitud": -98.38419,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0003h",
+      "cctJefaturaSector": "30fjt0001i",
+      "cctRegion": "30adg0001i",
+      "caracteristica1": "servicios",
+      "regionId": "I"
+    },
+    {
+      "id": "30DST0052I",
+      "cct": "30DST0052I",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 52",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Tepetzintla",
+      "localidad": "Tepetzintla",
+      "domicilio": "Calle Independencia",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "colonia",
+      "asentamiento": "Centro",
+      "codigoPostal": "92530",
+      "latitud": 21.17187,
+      "longitud": -97.85227,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0013o",
+      "cctJefaturaSector": "30fjt0001i",
+      "cctRegion": "30adg0010q",
+      "caracteristica1": "servicios",
+      "regionId": "III"
+    },
+    {
+      "id": "30DST0053H",
+      "cct": "30DST0053H",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 53",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Pánuco",
+      "localidad": "Villa Cacalilao Dos",
+      "domicilio": "Calle Lucio Blanco",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "rural",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "92009",
+      "latitud": 22.1476,
+      "longitud": -98.17733,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0012p",
+      "cctJefaturaSector": "30fjt0001i",
+      "cctRegion": "30adg0001i",
+      "caracteristica1": "servicios",
+      "regionId": "I"
+    },
+    {
+      "id": "30DST0054G",
+      "cct": "30DST0054G",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 54",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Zongolica",
+      "localidad": "Zongolica",
+      "domicilio": "Avenida Jose Azueta",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "colonia",
+      "asentamiento": "Zona Centro",
+      "codigoPostal": "95000",
+      "latitud": 18.66438,
+      "longitud": -96.99513,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0006e",
+      "cctJefaturaSector": "30fjt0004f",
+      "cctRegion": "30adg0088d",
+      "caracteristica1": "servicios",
+      "regionId": "X"
+    },
+    {
+      "id": "30DST0055F",
+      "cct": "30DST0055F",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 55",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Soteapan",
+      "localidad": "Soteapan",
+      "domicilio": "Carretera Estatal Libre Tramo Acayucan - Soteapan, Kilometro 3",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "95900",
+      "latitud": 18.22275,
+      "longitud": -94.87408,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0001j",
+      "cctJefaturaSector": "30fjt0006d",
+      "cctRegion": "30adg0089c",
+      "caracteristica1": "servicios",
+      "regionId": "XIII"
+    },
+    {
+      "id": "30DST0056E",
+      "cct": "30DST0056E",
+      "nombre": "Secundaria Tecnica Industrial Num. 56",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Álamo Temapache",
+      "localidad": "Potrero del Llano",
+      "domicilio": "Calle Fresno",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "92750",
+      "latitud": 21.08332,
+      "longitud": -97.7326,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0007d",
+      "cctJefaturaSector": "30fjt0002h",
+      "cctRegion": "30adg0010q",
+      "caracteristica1": "servicios",
+      "regionId": "III"
+    },
+    {
+      "id": "30DST0057D",
+      "cct": "30DST0057D",
+      "nombre": "Secundaria Tecnica Industrial Num. 57",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Tezonapa",
+      "localidad": "Motzorongo",
+      "domicilio": "Carretera Federal Libre Tramo Cordoba - Tezonapa, Kilometro 1+",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "95094",
+      "latitud": 18.63676,
+      "longitud": -96.72122,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0021x",
+      "cctJefaturaSector": "30fjt0005e",
+      "cctRegion": "30adg0061x",
+      "caracteristica1": "servicios",
+      "regionId": "IX"
+    },
+    {
+      "id": "30DST0058C",
+      "cct": "30DST0058C",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 58",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Tampico Alto",
+      "localidad": "Tampico Alto",
+      "domicilio": "Carretera Municipal Libre Tramo Tampico Alto - Mata de Chavez,",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "92041",
+      "latitud": 22.11135,
+      "longitud": -97.80562,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0012p",
+      "cctJefaturaSector": "30fjt0001i",
+      "cctRegion": "30adg0001i",
+      "caracteristica1": "servicios",
+      "regionId": "I"
+    },
+    {
+      "id": "30DST0059B",
+      "cct": "30DST0059B",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 59",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Chontla",
+      "localidad": "Chontla",
+      "domicilio": "Calle Benito Juarez",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "92200",
+      "latitud": 21.29897,
+      "longitud": -97.92571,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0007d",
+      "cctJefaturaSector": "30fjt0002h",
+      "cctRegion": "30adg0010q",
+      "caracteristica1": "servicios",
+      "regionId": "III"
+    },
+    {
+      "id": "30DST0060R",
+      "cct": "30DST0060R",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 60",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Sayula de Alemán",
+      "localidad": "Sayula de Alemán",
+      "domicilio": "Calle Valentin Gomez Farias",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "96151",
+      "latitud": 17.87573,
+      "longitud": -94.9626,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0011q",
+      "cctJefaturaSector": "30fjt0006d",
+      "cctRegion": "30adg0089c",
+      "caracteristica1": "servicios",
+      "regionId": "XIII"
+    },
+    {
+      "id": "30DST0061Q",
+      "cct": "30DST0061Q",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 61",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Tantoyuca",
+      "localidad": "Los Ajos",
+      "domicilio": "Calle Ignacio Manuel Altamirano",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "rural",
+      "tipoAsentamiento": "colonia",
+      "asentamiento": "Pueblo Los Ajos",
+      "codigoPostal": "92110",
+      "latitud": 21.192378,
+      "longitud": -98.145123,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0003h",
+      "cctJefaturaSector": "30fjt0001i",
+      "cctRegion": "30adg0001i",
+      "caracteristica1": "servicios",
+      "regionId": "I"
+    },
+    {
+      "id": "30DST0062P",
+      "cct": "30DST0062P",
+      "nombre": "Secundaria Tecnica Industrial Num. 62",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Misantla",
+      "localidad": "Misantla",
+      "domicilio": "Calle Gabriela Mistral",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "colonia",
+      "asentamiento": "Lindavista",
+      "codigoPostal": "93821",
+      "latitud": 19.94485,
+      "longitud": -96.85241,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0010r",
+      "cctJefaturaSector": "30fjt0003g",
+      "cctRegion": "30adg0030d",
+      "caracteristica1": "servicios",
+      "regionId": "V"
+    },
+    {
+      "id": "30DST0063O",
+      "cct": "30DST0063O",
+      "nombre": "Secundaria Tecnica Industrial Num. 63",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Cosoleacaque",
+      "localidad": "Cosoleacaque",
+      "domicilio": "Calle Carretera Transismica",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "barrio",
+      "asentamiento": "Primero",
+      "codigoPostal": "96345",
+      "latitud": 17.99286,
+      "longitud": -94.64206,
+      "turnos": [
+        "2 - vespertino",
+        "1 - matutino",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0001j",
+      "cctJefaturaSector": "30fjt0006d",
+      "cctRegion": "30adg0070e",
+      "caracteristica1": "servicios",
+      "regionId": "XIII"
+    },
+    {
+      "id": "30DST0064N",
+      "cct": "30DST0064N",
+      "nombre": "Secundaria Tecnica Industrial Num. 88",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Minatitlán",
+      "localidad": "Minatitlán",
+      "domicilio": "Avenida Atenas",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "colonia",
+      "asentamiento": "Miguel Hidalgo",
+      "codigoPostal": "96770",
+      "latitud": 17.98214,
+      "longitud": -94.56899,
+      "turnos": [
+        "2 - vespertino",
+        "1 - matutino",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0001j",
+      "cctJefaturaSector": "30fjt0006d",
+      "cctRegion": "30adg0070e",
+      "caracteristica1": "servicios",
+      "regionId": "XIII"
+    },
+    {
+      "id": "30DST0065M",
+      "cct": "30DST0065M",
+      "nombre": "Secundaria Tecnica Industrial Num. 65",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Tantoyuca",
+      "localidad": "Tantoyuca",
+      "domicilio": "Privada del Estudiante",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "92126",
+      "latitud": 21.34546,
+      "longitud": -98.2376,
+      "turnos": [
+        "1 - matutino",
+        "2 - vespertino",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0003h",
+      "cctJefaturaSector": "30fjt0001i",
+      "cctRegion": "30adg0001i",
+      "caracteristica1": "servicios",
+      "regionId": "I"
+    },
+    {
+      "id": "30DST0066L",
+      "cct": "30DST0066L",
+      "nombre": "Secundaria Tecnica Industrial Num. 66",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Yanga",
+      "localidad": "Yanga",
+      "domicilio": "Calle 16",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "94930",
+      "latitud": 18.8296,
+      "longitud": -96.79332,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0016l",
+      "cctJefaturaSector": "30fjt0004f",
+      "cctRegion": "30adg0061x",
+      "caracteristica1": "servicios",
+      "regionId": "IX"
+    },
+    {
+      "id": "30DST0067K",
+      "cct": "30DST0067K",
+      "nombre": "Secundaria Tecnica Industrial Num. 67",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Álamo Temapache",
+      "localidad": "Álamo",
+      "domicilio": "Prolongación Justo Sierra",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "92730",
+      "latitud": 20.9055,
+      "longitud": -97.67703,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0013o",
+      "cctJefaturaSector": "30fjt0001i",
+      "cctRegion": "30adg0010q",
+      "caracteristica1": "servicios",
+      "regionId": "III"
+    },
+    {
+      "id": "30DST0068J",
+      "cct": "30DST0068J",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 68",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Cosautlán de Carvajal",
+      "localidad": "Cosautlán de Carvajal",
+      "domicilio": "Andador 20 de Noviembre",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "91620",
+      "latitud": 19.33315,
+      "longitud": -97.00587,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0005f",
+      "cctJefaturaSector": "30fjt0003g",
+      "cctRegion": "30adg0040k",
+      "caracteristica1": "servicios",
+      "regionId": "VII"
+    },
+    {
+      "id": "30DST0069I",
+      "cct": "30DST0069I",
+      "nombre": "Secundaria Tecnica Industrial Num. 69",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Veracruz",
+      "localidad": "Veracruz",
+      "domicilio": "Calle Heroica",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "colonia",
+      "asentamiento": "Heriberto Jara Corona",
+      "codigoPostal": "91739",
+      "latitud": 19.17121,
+      "longitud": -96.15356,
+      "turnos": [
+        "2 - vespertino",
+        "1 - matutino",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0020y",
+      "cctJefaturaSector": "30fjt0005e",
+      "cctRegion": "30adg0060y",
+      "caracteristica1": "servicios",
+      "regionId": "VIII"
+    },
+    {
+      "id": "30DST0070Y",
+      "cct": "30DST0070Y",
+      "nombre": "Secundaria Tecnica Industrial Num. 71",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Martínez de la Torre",
+      "localidad": "Independencia",
+      "domicilio": "Prolongación 1 de Mayo",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "93610",
+      "latitud": 20.05214,
+      "longitud": -97.04868,
+      "turnos": [
+        "1 - matutino",
+        "2 - vespertino",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0010r",
+      "cctJefaturaSector": "30fjt0003g",
+      "cctRegion": "30adg0030d",
+      "caracteristica1": "servicios",
+      "regionId": "V"
+    },
+    {
+      "id": "30DST0071X",
+      "cct": "30DST0071X",
+      "nombre": "Secundaria Tecnica Industrial Num. 72",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Xalapa",
+      "localidad": "Xalapa-enríquez",
+      "domicilio": "Calle Division del Norte",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "colonia",
+      "asentamiento": "Revolucion",
+      "codigoPostal": "91100",
+      "latitud": 19.56874,
+      "longitud": -96.92431,
+      "turnos": [
+        "2 - vespertino",
+        "1 - matutino",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0015m",
+      "cctJefaturaSector": "30fjt0003g",
+      "cctRegion": "30adg0084h",
+      "caracteristica1": "servicios",
+      "regionId": "VI"
+    },
+    {
+      "id": "30DST0072W",
+      "cct": "30DST0072W",
+      "nombre": "Secundaria Tecnica Industrial Num. 70",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Córdoba",
+      "localidad": "Córdoba",
+      "domicilio": "Ninguno Ninguno",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "colonia",
+      "asentamiento": "Penjamo",
+      "codigoPostal": "94690",
+      "latitud": 18.867591,
+      "longitud": -96.919141,
+      "turnos": [
+        "2 - vespertino",
+        "1 - matutino",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0002i",
+      "cctJefaturaSector": "30fjt0004f",
+      "cctRegion": "30adg0061x",
+      "caracteristica1": "servicios",
+      "regionId": "IX"
+    },
+    {
+      "id": "30DST0073V",
+      "cct": "30DST0073V",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 86",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Juchique de Ferrer",
+      "localidad": "Juchique de Ferrer",
+      "domicilio": "Calle Carretera Juchique a Misantla 1300 Metros",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "91440",
+      "latitud": 19.84461,
+      "longitud": -96.70559,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0010r",
+      "cctJefaturaSector": "30fjt0003g",
+      "cctRegion": "30adg0030d",
+      "caracteristica1": "servicios",
+      "regionId": "V"
+    },
+    {
+      "id": "30DST0074U",
+      "cct": "30DST0074U",
+      "nombre": "Secundaria Tecnica Industrial Num. 87",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Cerro Azul",
+      "localidad": "Cerro Azul",
+      "domicilio": "Calle Rafael Nieto",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "colonia",
+      "asentamiento": "El Cuatro",
+      "codigoPostal": "92511",
+      "latitud": 21.17704,
+      "longitud": -97.7357,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0007d",
+      "cctJefaturaSector": "30fjt0002h",
+      "cctRegion": "30adg0010q",
+      "caracteristica1": "servicios",
+      "regionId": "III"
+    },
+    {
+      "id": "30DST0075T",
+      "cct": "30DST0075T",
+      "nombre": "Secundaria Tecnica Industrial Num. 64",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Pueblo Viejo",
+      "localidad": "Cd. Cuauhtémoc",
+      "domicilio": "Calle Benito Juarez",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "92030",
+      "latitud": 22.18306,
+      "longitud": -97.83207,
+      "turnos": [
+        "1 - matutino",
+        "2 - vespertino",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0012p",
+      "cctJefaturaSector": "30fjt0001i",
+      "cctRegion": "30adg0001i",
+      "caracteristica1": "servicios",
+      "regionId": "I"
+    },
+    {
+      "id": "30DST0076S",
+      "cct": "30DST0076S",
+      "nombre": "Secundaria Tecnica Pesquera Num. 22",
+      "modalidad": "pesquera",
+      "tipo": "escuela",
+      "municipio": "Tuxpan",
+      "localidad": "Ejido la Calzada",
+      "domicilio": "Ninguno Ninguno",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "rural",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "92870",
+      "latitud": 20.95296,
+      "longitud": -97.34989,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0007d",
+      "cctJefaturaSector": "30fjt0002h",
+      "cctRegion": "30adg0010q",
+      "caracteristica1": "servicios",
+      "regionId": "III"
+    },
+    {
+      "id": "30DST0077R",
+      "cct": "30DST0077R",
+      "nombre": "Secundaria Tecnica Industrial Num. 4",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Orizaba",
+      "localidad": "Orizaba",
+      "domicilio": "Calle Sur 39",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "94300",
+      "latitud": 18.85291,
+      "longitud": -97.0869,
+      "turnos": [
+        "2 - vespertino",
+        "1 - matutino",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0006e",
+      "cctJefaturaSector": "30fjt0004f",
+      "cctRegion": "30adg0050r",
+      "caracteristica1": "servicios",
+      "regionId": "X"
+    },
+    {
+      "id": "30DST0078Q",
+      "cct": "30DST0078Q",
+      "nombre": "Secundaria Tecnica Industrial Num. 76",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Tuxpan",
+      "localidad": "Túxpam de Rodríguez Cano",
+      "domicilio": "Calle Galeana",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "colonia",
+      "asentamiento": "Azteca",
+      "codigoPostal": "92820",
+      "latitud": 20.96105,
+      "longitud": -97.41475,
+      "turnos": [
+        "1 - matutino",
+        "2 - vespertino",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0007d",
+      "cctJefaturaSector": "30fjt0002h",
+      "cctRegion": "30adg0010q",
+      "caracteristica1": "servicios",
+      "regionId": "III"
+    },
+    {
+      "id": "30DST0079P",
+      "cct": "30DST0079P",
+      "nombre": "Secundaria Tecnica Industrial Num. 75",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Poza Rica de Hidalgo",
+      "localidad": "Poza Rica de Hidalgo",
+      "domicilio": "Calle Pozo 6 Quemado",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "colonia",
+      "asentamiento": "Anahuac",
+      "codigoPostal": "93270",
+      "latitud": 20.52304,
+      "longitud": -97.44171,
+      "turnos": [
+        "1 - matutino",
+        "2 - vespertino",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0008c",
+      "cctJefaturaSector": "30fjt0002h",
+      "cctRegion": "30adg0020x",
+      "caracteristica1": "servicios",
+      "regionId": "IV"
+    },
+    {
+      "id": "30DST0080E",
+      "cct": "30DST0080E",
+      "nombre": "Secundaria Tecnica Industrial Num. 74",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Ixtaczoquitlán",
+      "localidad": "Ixtaczoquitlán",
+      "domicilio": "Prolongación de Ote",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "94450",
+      "latitud": 18.85436,
+      "longitud": -97.05227,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0006e",
+      "cctJefaturaSector": "30fjt0004f",
+      "cctRegion": "30adg0050r",
+      "caracteristica1": "servicios",
+      "regionId": "X"
+    },
+    {
+      "id": "30DST0081D",
+      "cct": "30DST0081D",
+      "nombre": "Secundaria Tecnica Industrial Num. 73",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Coatzacoalcos",
+      "localidad": "Allende",
+      "domicilio": "Calle Francisco I Madero",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "96380",
+      "latitud": 18.15539,
+      "longitud": -94.39848,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0019i",
+      "cctJefaturaSector": "30fjt0006d",
+      "cctRegion": "30adg0070e",
+      "caracteristica1": "servicios",
+      "regionId": "XIII"
+    },
+    {
+      "id": "30DST0082C",
+      "cct": "30DST0082C",
+      "nombre": "Escuela Secundaria Tecnica Industrial Num. 77",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Paso del Macho",
+      "localidad": "Paso del Macho",
+      "domicilio": "Prolongación de Avenida Principal",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "94970",
+      "latitud": 18.97361,
+      "longitud": -96.71083,
+      "turnos": [
+        "2 - vespertino",
+        "1 - matutino",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0002i",
+      "cctJefaturaSector": "30fjt0004f",
+      "cctRegion": "30adg0060y",
+      "caracteristica1": "servicios",
+      "regionId": "IX"
+    },
+    {
+      "id": "30DST0083B",
+      "cct": "30DST0083B",
+      "nombre": "Secundaria Tecnica Industrial Num. 78",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Veracruz",
+      "localidad": "Valente Díaz",
+      "domicilio": "Calle Inca",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "91697",
+      "latitud": 19.17425,
+      "longitud": -96.22231,
+      "turnos": [
+        "1 - matutino",
+        "2 - vespertino",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0020y",
+      "cctJefaturaSector": "30fjt0005e",
+      "cctRegion": "30adg0060y",
+      "caracteristica1": "servicios",
+      "regionId": "VIII"
+    },
+    {
+      "id": "30DST0084A",
+      "cct": "30DST0084A",
+      "nombre": "Secundaria Tecnica Industrial Num. 79",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "La Antigua",
+      "localidad": "José Cardel",
+      "domicilio": "Carretera Federal Cardel-ursulo Galvan Km. 1",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "colonia",
+      "asentamiento": "Modelo Segunda Seccion",
+      "codigoPostal": "91680",
+      "latitud": 19.38143,
+      "longitud": -96.36915,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0004g",
+      "cctJefaturaSector": "30fjt0005e",
+      "cctRegion": "30adg0060y",
+      "caracteristica1": "servicios",
+      "regionId": "VI"
+    },
+    {
+      "id": "30DST0085Z",
+      "cct": "30DST0085Z",
+      "nombre": "Secundaria Tecnica Industrial Num. 80",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Santiago Tuxtla",
+      "localidad": "Santiago Tuxtla",
+      "domicilio": "Calle Los Tulipanes",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "colonia",
+      "asentamiento": "El Jardin",
+      "codigoPostal": "95830",
+      "latitud": 18.46964,
+      "longitud": -95.30939,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0018j",
+      "cctJefaturaSector": "30fjt0005e",
+      "cctRegion": "30adg0060y",
+      "caracteristica1": "servicios",
+      "regionId": "XII"
+    },
+    {
+      "id": "30DST0086Z",
+      "cct": "30DST0086Z",
+      "nombre": "Secundaria Tecnica Industrial Num. 81",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Chinameca",
+      "localidad": "Chinameca",
+      "domicilio": "Calle Altamirano",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "barrio",
+      "asentamiento": "Barrio Maseca",
+      "codigoPostal": "95980",
+      "latitud": 18.0143,
+      "longitud": -94.68746,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0001j",
+      "cctJefaturaSector": "30fjt0006d",
+      "cctRegion": "30adg0070e",
+      "caracteristica1": "servicios",
+      "regionId": "XIII"
+    },
+    {
+      "id": "30DST0087Y",
+      "cct": "30DST0087Y",
+      "nombre": "Secundaria Tecnica Industrial Num. 83",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Pajapan",
+      "localidad": "Pajapan",
+      "domicilio": "Calle Lazaro Cardenas",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "95960",
+      "latitud": 18.26006,
+      "longitud": -94.68741,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0001j",
+      "cctJefaturaSector": "30fjt0006d",
+      "cctRegion": "30adg0070e",
+      "caracteristica1": "servicios",
+      "regionId": "XIII"
+    },
+    {
+      "id": "30DST0088X",
+      "cct": "30DST0088X",
+      "nombre": "Secundaria Tecnica Industrial Num. 84",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Orizaba",
+      "localidad": "Orizaba",
+      "domicilio": "Avenida Circunvalación",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "colonia",
+      "asentamiento": "Orizaba Centro",
+      "codigoPostal": "94330",
+      "latitud": 18.86056,
+      "longitud": -97.09458,
+      "turnos": [
+        "1 - matutino",
+        "2 - vespertino",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0006e",
+      "cctJefaturaSector": "30fjt0004f",
+      "cctRegion": "30adg0050r",
+      "caracteristica1": "servicios",
+      "regionId": "X"
+    },
+    {
+      "id": "30DST0089W",
+      "cct": "30DST0089W",
+      "nombre": "Secundaria Tecnica Industrial Num. 85",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Álamo Temapache",
+      "localidad": "Temapache",
+      "domicilio": "Carretera Tuxpan - Tampico, Kilometro 33",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "rural",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "92750",
+      "latitud": 21.07367,
+      "longitud": -97.64234,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0007d",
+      "cctJefaturaSector": "30fjt0002h",
+      "cctRegion": "30adg0010q",
+      "caracteristica1": "servicios",
+      "regionId": "III"
+    },
+    {
+      "id": "30DST0090L",
+      "cct": "30DST0090L",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 82",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Uxpanapa",
+      "localidad": "Poblado 10",
+      "domicilio": "Ninguno Ninguno",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "96998",
+      "latitud": 17.28079,
+      "longitud": -94.45106,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0011q",
+      "cctJefaturaSector": "30fjt0006d",
+      "cctRegion": "30adg0089c",
+      "caracteristica1": "servicios",
+      "regionId": "XIII"
+    },
+    {
+      "id": "30DST0091K",
+      "cct": "30DST0091K",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 91",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Acayucan",
+      "localidad": "Acayucan",
+      "domicilio": "Calle Carretera Costera del Golfo Km 219 Salida Acayucan - Catemaco",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "colonia",
+      "asentamiento": "Agricola Michapa",
+      "codigoPostal": "96000",
+      "latitud": 17.99302,
+      "longitud": -94.92048,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0011q",
+      "cctJefaturaSector": "30fjt0006d",
+      "cctRegion": "30adg0089c",
+      "caracteristica1": "servicios",
+      "regionId": "XIII"
+    },
+    {
+      "id": "30DST0092J",
+      "cct": "30DST0092J",
+      "nombre": "Secundaria Tecnica Industrial Num. 92",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Catemaco",
+      "localidad": "Catemaco",
+      "domicilio": "Calle Carretera 180 Costera del Golfo Matamoros Puerto Juarez",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "95894",
+      "latitud": 18.42972,
+      "longitud": -95.12583,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0018j",
+      "cctJefaturaSector": "30fjt0005e",
+      "cctRegion": "30adg0060y",
+      "caracteristica1": "servicios",
+      "regionId": "XII"
+    },
+    {
+      "id": "30DST0093I",
+      "cct": "30DST0093I",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 93",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Espinal",
+      "localidad": "Espinal",
+      "domicilio": "Calle 20 de Noviembre",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "colonia",
+      "asentamiento": "Centro",
+      "codigoPostal": "93180",
+      "latitud": 20.25813,
+      "longitud": -97.40402,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0014n",
+      "cctJefaturaSector": "30fjt0002h",
+      "cctRegion": "30adg0020x",
+      "caracteristica1": "servicios",
+      "regionId": "IV"
+    },
+    {
+      "id": "30DST0094H",
+      "cct": "30DST0094H",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 94",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Tecolutla",
+      "localidad": "Ricardo Flores Magón",
+      "domicilio": "Ninguno Ninguno",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "rural",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "92121",
+      "latitud": 20.35682,
+      "longitud": -96.90462,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0014n",
+      "cctJefaturaSector": "30fjt0002h",
+      "cctRegion": "30adg0020x",
+      "caracteristica1": "servicios",
+      "regionId": "V"
+    },
+    {
+      "id": "30DST0095G",
+      "cct": "30DST0095G",
+      "nombre": "Secundaria Tecnica Industrial Num. 95",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Coatepec",
+      "localidad": "Mahuixtlán",
+      "domicilio": "Calle Constitucion",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "91608",
+      "latitud": 19.4113,
+      "longitud": -96.91555,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0005f",
+      "cctJefaturaSector": "30fjt0003g",
+      "cctRegion": "30adg0040k",
+      "caracteristica1": "servicios",
+      "regionId": "VII"
+    },
+    {
+      "id": "30DST0096F",
+      "cct": "30DST0096F",
+      "nombre": "Secundaria Tecnica Industrial Num. 96",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Coatzacoalcos",
+      "localidad": "Coatzacoalcos",
+      "domicilio": "Avenida Universidad Km 9.5",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "colonia",
+      "asentamiento": "El Tesoro",
+      "codigoPostal": "96536",
+      "latitud": 18.13825,
+      "longitud": -94.49688,
+      "turnos": [
+        "2 - vespertino",
+        "1 - matutino",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0019i",
+      "cctJefaturaSector": "30fjt0006d",
+      "cctRegion": "30adg0070e",
+      "caracteristica1": "servicios",
+      "regionId": "XIII"
+    },
+    {
+      "id": "30DST0097E",
+      "cct": "30DST0097E",
+      "nombre": "Secundaria Tecnica Industrial Num. 97",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Xalapa",
+      "localidad": "Xalapa-enríquez",
+      "domicilio": "Retorno Higo",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "unidad habitacional",
+      "asentamiento": "Sumidero Infonavit",
+      "codigoPostal": "91154",
+      "latitud": 19.54719,
+      "longitud": -96.90072,
+      "turnos": [
+        "2 - vespertino",
+        "1 - matutino",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0015m",
+      "cctJefaturaSector": "30fjt0003g",
+      "cctRegion": "30adg0084h",
+      "caracteristica1": "servicios",
+      "regionId": "VI"
+    },
+    {
+      "id": "30DST0098D",
+      "cct": "30DST0098D",
+      "nombre": "Secundaria Tecnica Industrial Num. 98",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Orizaba",
+      "localidad": "Orizaba",
+      "domicilio": "Calle Rio Panuco",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "94300",
+      "latitud": 18.87574,
+      "longitud": -97.11199,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0006e",
+      "cctJefaturaSector": "30fjt0004f",
+      "cctRegion": "30adg0050r",
+      "caracteristica1": "servicios",
+      "regionId": "X"
+    },
+    {
+      "id": "30DST0099C",
+      "cct": "30DST0099C",
+      "nombre": "Secundaria Tecnica Industrial Num. 99",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Boca del Río",
+      "localidad": "Boca del Río",
+      "domicilio": "Avenida Rio Nilo",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "94292",
+      "latitud": 19.13627,
+      "longitud": -96.13805,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0017k",
+      "cctJefaturaSector": "30fjt0005e",
+      "cctRegion": "30adg0060y",
+      "caracteristica1": "servicios",
+      "regionId": "VIII"
+    },
+    {
+      "id": "30DST0100B",
+      "cct": "30DST0100B",
+      "nombre": "Secundaria Tecnica Industrial Num. 100",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Cotaxtla",
+      "localidad": "Cotaxtla",
+      "domicilio": "Calle Carretera a Moralito Cotaxtla",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "94990",
+      "latitud": 18.83337,
+      "longitud": -96.39346,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0021x",
+      "cctJefaturaSector": "30fjt0005e",
+      "cctRegion": "30adg0060y",
+      "caracteristica1": "servicios",
+      "regionId": "VIII"
+    },
+    {
+      "id": "30DST0101A",
+      "cct": "30DST0101A",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 101",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Zongolica",
+      "localidad": "Temaxcalapa",
+      "domicilio": "Calle Jesus Aurelio",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "rural",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "95010",
+      "latitud": 18.54771,
+      "longitud": -96.92803,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0021x",
+      "cctJefaturaSector": "30fjt0005e",
+      "cctRegion": "30adg0088d",
+      "caracteristica1": "servicios",
+      "regionId": "IX"
+    },
+    {
+      "id": "30DST0102Z",
+      "cct": "30DST0102Z",
+      "nombre": "Secundaria Tecnica Industrial Num. 102",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Tuxpan",
+      "localidad": "Praxedis Guerrero (kilómetro 18)",
+      "domicilio": "Carretera Tuxpan - Cazones, Kilometro 18",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "rural",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "92800",
+      "latitud": 20.80473,
+      "longitud": -97.31118,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0007d",
+      "cctJefaturaSector": "30fjt0002h",
+      "cctRegion": "30adg0010q",
+      "caracteristica1": "servicios",
+      "regionId": "III"
+    },
+    {
+      "id": "30DST0103Z",
+      "cct": "30DST0103Z",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 103",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Chicontepec",
+      "localidad": "Ixcacuatitla",
+      "domicilio": "Ninguno Ninguno",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "rural",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "93576",
+      "latitud": 20.90526,
+      "longitud": -98.02143,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0003h",
+      "cctJefaturaSector": "30fjt0001i",
+      "cctRegion": "30adg0001i",
+      "caracteristica1": "servicios",
+      "regionId": "I"
+    },
+    {
+      "id": "30DST0104Y",
+      "cct": "30DST0104Y",
+      "nombre": "Secundaria Tecnica Industrial Num. 104",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Cuichapa",
+      "localidad": "Providencia",
+      "domicilio": "Carretera Estatal Cordoba-tezonapa Km.21",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "94926",
+      "latitud": 18.75619,
+      "longitud": -96.77372,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0016l",
+      "cctJefaturaSector": "30fjt0004f",
+      "cctRegion": "30adg0061x",
+      "caracteristica1": "servicios",
+      "regionId": "IX"
+    },
+    {
+      "id": "30DST0105X",
+      "cct": "30DST0105X",
+      "nombre": "Secundaria Tecnica Industrial Num. 105",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Xalapa",
+      "localidad": "Xalapa-enríquez",
+      "domicilio": "Calle Diamante",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "unidad habitacional",
+      "asentamiento": "Fovissste",
+      "codigoPostal": "91020",
+      "latitud": 19.55094,
+      "longitud": -96.94139,
+      "turnos": [
+        "2 - vespertino",
+        "1 - matutino",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0015m",
+      "cctJefaturaSector": "30fjt0003g",
+      "cctRegion": "30adg0084h",
+      "caracteristica1": "servicios",
+      "regionId": "VI"
+    },
+    {
+      "id": "30DST0106W",
+      "cct": "30DST0106W",
+      "nombre": "Secundaria Tecnica Industrial Num. 106",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Tatahuicapan de Juárez",
+      "localidad": "Tatahuicapan",
+      "domicilio": "Calle 16 de Septiembre",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "barrio",
+      "asentamiento": "Primero",
+      "codigoPostal": "95950",
+      "latitud": 18.24127,
+      "longitud": -94.75939,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0001j",
+      "cctJefaturaSector": "30fjt0006d",
+      "cctRegion": "30adg0070e",
+      "caracteristica1": "servicios",
+      "regionId": "XIII"
+    },
+    {
+      "id": "30DST0107V",
+      "cct": "30DST0107V",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 107",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Tlachichilco",
+      "localidad": "Tlachichilco",
+      "domicilio": "Calle 5 de Mayo",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "92670",
+      "latitud": 20.61857,
+      "longitud": -98.20035,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0013o",
+      "cctJefaturaSector": "30fjt0001i",
+      "cctRegion": "30adg0010q",
+      "caracteristica1": "servicios",
+      "regionId": "III"
+    },
+    {
+      "id": "30DST0108U",
+      "cct": "30DST0108U",
+      "nombre": "Secundaria Tecnica Industrial Num. 108",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Ixhuatlán del Sureste",
+      "localidad": "Ixhuatlán del Sureste",
+      "domicilio": "Calle Benito Juarez",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "96365",
+      "latitud": 18.01927,
+      "longitud": -94.39102,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0019i",
+      "cctJefaturaSector": "30fjt0006d",
+      "cctRegion": "30adg0070e",
+      "caracteristica1": "servicios",
+      "regionId": "XIII"
+    },
+    {
+      "id": "30DST0109T",
+      "cct": "30DST0109T",
+      "nombre": "Secundaria Tecnica Industrial Num. 109",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Pánuco",
+      "localidad": "Tamos",
+      "domicilio": "Calle Agustin Pecina",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "92018",
+      "latitud": 22.21864,
+      "longitud": -97.99738,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0012p",
+      "cctJefaturaSector": "30fjt0001i",
+      "cctRegion": "30adg0001i",
+      "caracteristica1": "servicios",
+      "regionId": "I"
+    },
+    {
+      "id": "30DST0110I",
+      "cct": "30DST0110I",
+      "nombre": "Escuela Secundaria Tecnica Industrial Num. 110 \"amadeo Tinoco del Pilar\"",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Carrillo Puerto",
+      "localidad": "Trinidad Sánchez Santos",
+      "domicilio": "Calle Km.8 Carretera Cuitlahuac-carrillo Puerto",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "rural",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "94980",
+      "latitud": 18.81833,
+      "longitud": -96.64263,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0016l",
+      "cctJefaturaSector": "30fjt0004f",
+      "cctRegion": "30adg0061x",
+      "caracteristica1": "servicios",
+      "regionId": "IX"
+    },
+    {
+      "id": "30DST0111H",
+      "cct": "30DST0111H",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 111",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Zontecomatlán de López y Fuentes",
+      "localidad": "Zontecomatlán de López y Fuentes",
+      "domicilio": "Carretera Zontecomatlan Huayacocotla Kilometro 3",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "92630",
+      "latitud": 20.75889,
+      "longitud": -98.3475,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0013o",
+      "cctJefaturaSector": "30fjt0001i",
+      "cctRegion": "30adg0002h",
+      "caracteristica1": "servicios",
+      "regionId": "II"
+    },
+    {
+      "id": "30DST0112G",
+      "cct": "30DST0112G",
+      "nombre": "Secundaria Tecnica Industrial Num. 112",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Tres Valles",
+      "localidad": "Tres Valles",
+      "domicilio": "Boulevard Jose Maria Morelos y Pavon",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "95300",
+      "latitud": 18.2588,
+      "longitud": -96.15988,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0021x",
+      "cctJefaturaSector": "30fjt0005e",
+      "cctRegion": "30adg0004f",
+      "caracteristica1": "servicios",
+      "regionId": "XI"
+    },
+    {
+      "id": "30DST0113F",
+      "cct": "30DST0113F",
+      "nombre": "Secundaria Tecnica Industrial Num. 113",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "San Andrés Tuxtla",
+      "localidad": "Ranchoapan Dos",
+      "domicilio": "Calle Josefa Ortiz de Dominguez",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "rural",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "95797",
+      "latitud": 18.43018,
+      "longitud": -95.21534,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0018j",
+      "cctJefaturaSector": "30fjt0005e",
+      "cctRegion": "30adg0060y",
+      "caracteristica1": "servicios",
+      "regionId": "XII"
+    },
+    {
+      "id": "30DST0114E",
+      "cct": "30DST0114E",
+      "nombre": "Secundaria Tecnica Pesquera Num. 114",
+      "modalidad": "pesquera",
+      "tipo": "escuela",
+      "municipio": "Boca del Río",
+      "localidad": "Boca del Río",
+      "domicilio": "Avenida Veracruz",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "colonia",
+      "asentamiento": "San Jose",
+      "codigoPostal": "94290",
+      "latitud": 19.08724,
+      "longitud": -96.1309,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0017k",
+      "cctJefaturaSector": "30fjt0005e",
+      "cctRegion": "30adg0060y",
+      "caracteristica1": "servicios",
+      "regionId": "VIII"
+    },
+    {
+      "id": "30DST0115D",
+      "cct": "30DST0115D",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 115",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Minatitlán",
+      "localidad": "Mapachapa",
+      "domicilio": "Carretera Mina-canticas Kilometro 1",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "96700",
+      "latitud": 18.03108,
+      "longitud": -94.56186,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0001j",
+      "cctJefaturaSector": "30fjt0006d",
+      "cctRegion": "30adg0070e",
+      "caracteristica1": "servicios",
+      "regionId": "XIII"
+    },
+    {
+      "id": "30DST0116C",
+      "cct": "30DST0116C",
+      "nombre": "Secundaria Tecnica Industrial Num. 116",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Zaragoza",
+      "localidad": "Zaragoza",
+      "domicilio": "Calle Jose Maria Morelos",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "96320",
+      "latitud": 17.95331,
+      "longitud": -94.6505,
+      "turnos": [
+        "1 - matutino",
+        "2 - vespertino",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0001j",
+      "cctJefaturaSector": "30fjt0006d",
+      "cctRegion": "30adg0070e",
+      "caracteristica1": "servicios",
+      "regionId": "XIII"
+    },
+    {
+      "id": "30DST0117B",
+      "cct": "30DST0117B",
+      "nombre": "Secundaria Tecnica Industrial Num. 117",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Poza Rica de Hidalgo",
+      "localidad": "Poza Rica de Hidalgo",
+      "domicilio": "Calle Zinapecuaro",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "colonia",
+      "asentamiento": "Las Vegas",
+      "codigoPostal": "93210",
+      "latitud": 20.5598,
+      "longitud": -97.43607,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0008c",
+      "cctJefaturaSector": "30fjt0002h",
+      "cctRegion": "30adg0020x",
+      "caracteristica1": "servicios",
+      "regionId": "IV"
+    },
+    {
+      "id": "30DST0118A",
+      "cct": "30DST0118A",
+      "nombre": "Secundaria Tecnica Industrial Num. 118",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Nanchital de Lázaro Cárdenas del Río",
+      "localidad": "Nanchital de Lázaro Cárdenas del Río",
+      "domicilio": "Calle Boulevar Santa Elena",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "93770",
+      "latitud": 18.07097,
+      "longitud": -94.3945,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0019i",
+      "cctJefaturaSector": "30fjt0006d",
+      "cctRegion": "30adg0070e",
+      "caracteristica1": "servicios",
+      "regionId": "XIII"
+    },
+    {
+      "id": "30DST0119Z",
+      "cct": "30DST0119Z",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 119",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Ixtaczoquitlán",
+      "localidad": "Campo Chico",
+      "domicilio": "Avenida Tecnica 112",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "rural",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "94464",
+      "latitud": 18.83491,
+      "longitud": -97.02568,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0006e",
+      "cctJefaturaSector": "30fjt0004f",
+      "cctRegion": "30adg0050r",
+      "caracteristica1": "servicios",
+      "regionId": "X"
+    },
+    {
+      "id": "30DST0120P",
+      "cct": "30DST0120P",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 120",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Chicontepec",
+      "localidad": "Ahuimol Tzimpiasco",
+      "domicilio": "Calle Insurgentes",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "rural",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "92709",
+      "latitud": 20.89339,
+      "longitud": -98.12414,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0003h",
+      "cctJefaturaSector": "30fjt0001i",
+      "cctRegion": "30adg0001i",
+      "caracteristica1": "servicios",
+      "regionId": "I"
+    },
+    {
+      "id": "30DST0121O",
+      "cct": "30DST0121O",
+      "nombre": "Secundaria Tecnica Industrial Num. 121",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Papantla",
+      "localidad": "Papantla de Olarte",
+      "domicilio": "Calle Carlos Gomez Santes",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "93460",
+      "latitud": 20.43622,
+      "longitud": -97.31503,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0014n",
+      "cctJefaturaSector": "30fjt0002h",
+      "cctRegion": "30adg0020x",
+      "caracteristica1": "servicios",
+      "regionId": "IV"
+    },
+    {
+      "id": "30DST0122N",
+      "cct": "30DST0122N",
+      "nombre": "Secundaria Tecnica Industrial Num. 122 Alfredo Martinez Pacheco",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Xalapa",
+      "localidad": "Xalapa-enríquez",
+      "domicilio": "Calle Llano",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "unidad habitacional",
+      "asentamiento": "Nuevo Xalapa",
+      "codigoPostal": "91097",
+      "latitud": 19.50951,
+      "longitud": -96.89566,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0005f",
+      "cctJefaturaSector": "30fjt0003g",
+      "cctRegion": "30adg0084h",
+      "caracteristica1": "servicios",
+      "regionId": "VI"
+    },
+    {
+      "id": "30DST0123M",
+      "cct": "30DST0123M",
+      "nombre": "Secundaria Tecnica Industrial Num. 123",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Veracruz",
+      "localidad": "Veracruz",
+      "domicilio": "Calle Bahamas",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "fraccionamiento",
+      "asentamiento": "Floresta",
+      "codigoPostal": "91940",
+      "latitud": 19.14804,
+      "longitud": -96.13251,
+      "turnos": [
+        "2 - vespertino",
+        "1 - matutino",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0004g",
+      "cctJefaturaSector": "30fjt0005e",
+      "cctRegion": "30adg0060y",
+      "caracteristica1": "servicios",
+      "regionId": "VIII"
+    },
+    {
+      "id": "30DST0124L",
+      "cct": "30DST0124L",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 124",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Tantoyuca",
+      "localidad": "Acececa",
+      "domicilio": "Calle Carretera Tantoyuca Platon Sanchez Km 12",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "rural",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "92101",
+      "latitud": 21.29305,
+      "longitud": -98.32056,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0003h",
+      "cctJefaturaSector": "30fjt0001i",
+      "cctRegion": "30adg0001i",
+      "caracteristica1": "servicios",
+      "regionId": "I"
+    },
+    {
+      "id": "30DST0125K",
+      "cct": "30DST0125K",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 125",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Comapa",
+      "localidad": "Comapa",
+      "domicilio": "Avenida Lopez Arias",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "94200",
+      "latitud": 19.17247,
+      "longitud": -96.89147,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0005f",
+      "cctJefaturaSector": "30fjt0003g",
+      "cctRegion": "30adg0061x",
+      "caracteristica1": "servicios",
+      "regionId": "VI"
+    },
+    {
+      "id": "30DST0126J",
+      "cct": "30DST0126J",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 126",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Tehuipango",
+      "localidad": "Tehuipango",
+      "domicilio": "Ninguno Ninguno",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "95035",
+      "latitud": 18.51664,
+      "longitud": -97.05695,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0006e",
+      "cctJefaturaSector": "30fjt0004f",
+      "cctRegion": "30adg0088d",
+      "caracteristica1": "servicios",
+      "regionId": "X"
+    },
+    {
+      "id": "30DST0127I",
+      "cct": "30DST0127I",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 127",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Tantoyuca",
+      "localidad": "San Juan Chijolar",
+      "domicilio": "Calle Dos Caminos San Juan Chijolar",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "rural",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "92101",
+      "latitud": 21.42162,
+      "longitud": -98.20278,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0003h",
+      "cctJefaturaSector": "30fjt0001i",
+      "cctRegion": "30adg0001i",
+      "caracteristica1": "servicios",
+      "regionId": "I"
+    },
+    {
+      "id": "30DST0128H",
+      "cct": "30DST0128H",
+      "nombre": "Secundaria Tecnica Industrial Num. 128",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Xalapa",
+      "localidad": "Xalapa-enríquez",
+      "domicilio": "Calle Tepic",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "colonia",
+      "asentamiento": "Loma Alta",
+      "codigoPostal": "91190",
+      "latitud": 19.53104,
+      "longitud": -96.89534,
+      "turnos": [
+        "2 - vespertino",
+        "1 - matutino",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0005f",
+      "cctJefaturaSector": "30fjt0003g",
+      "cctRegion": "30adg0084h",
+      "caracteristica1": "servicios",
+      "regionId": "VI"
+    },
+    {
+      "id": "30DST0129G",
+      "cct": "30DST0129G",
+      "nombre": "Secundaria Tecnica Industrial Num. 129",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Amatlán de Los Reyes",
+      "localidad": "Peñuela",
+      "domicilio": "Calle Pio Lopez",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "colonia",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "94945",
+      "latitud": 18.86184,
+      "longitud": -96.89507,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0002i",
+      "cctJefaturaSector": "30fjt0004f",
+      "cctRegion": "30adg0061x",
+      "caracteristica1": "servicios",
+      "regionId": "IX"
+    },
+    {
+      "id": "30DST0130W",
+      "cct": "30DST0130W",
+      "nombre": "Secundaria Tecnica Industrial Num. 130",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Veracruz",
+      "localidad": "Veracruz",
+      "domicilio": "Calle Ignacio Allende Norte",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "colonia",
+      "asentamiento": "Miguel Aleman",
+      "codigoPostal": "91898",
+      "latitud": 19.20772,
+      "longitud": -96.15275,
+      "turnos": [
+        "2 - vespertino",
+        "1 - matutino",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0004g",
+      "cctJefaturaSector": "30fjt0005e",
+      "cctRegion": "30adg0060y",
+      "caracteristica1": "servicios",
+      "regionId": "VIII"
+    },
+    {
+      "id": "30DST0131V",
+      "cct": "30DST0131V",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 131",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Pánuco",
+      "localidad": "Guayalejo",
+      "domicilio": "Boulevard Miguel Hidalgo",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "92016",
+      "latitud": 22.38104,
+      "longitud": -98.48174,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0012p",
+      "cctJefaturaSector": "30fjt0001i",
+      "cctRegion": "30adg0001i",
+      "caracteristica1": "servicios",
+      "regionId": "I"
+    },
+    {
+      "id": "30DST0132U",
+      "cct": "30DST0132U",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 132",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Paso de Ovejas",
+      "localidad": "Tierra Colorada",
+      "domicilio": "Carretera Federal Libre Tramo Xalapa - Veracruz, Kilometro 80+",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "rural",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "91675",
+      "latitud": 19.22369,
+      "longitud": -96.36744,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0020y",
+      "cctJefaturaSector": "30fjt0005e",
+      "cctRegion": "30adg0060y",
+      "caracteristica1": "servicios",
+      "regionId": "VIII"
+    },
+    {
+      "id": "30DST0133T",
+      "cct": "30DST0133T",
+      "nombre": "Secundaria Tecnica Industrial Num. 133",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Martínez de la Torre",
+      "localidad": "Felipe Carrillo Puerto",
+      "domicilio": "Calle Manuel Zorrilla",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "93601",
+      "latitud": 20.13602,
+      "longitud": -96.95741,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0010r",
+      "cctJefaturaSector": "30fjt0003g",
+      "cctRegion": "30adg0030d",
+      "caracteristica1": "servicios",
+      "regionId": "V"
+    },
+    {
+      "id": "30DST0134S",
+      "cct": "30DST0134S",
+      "nombre": "Secundaria Tecnica Industrial Num.134",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Cosoleacaque",
+      "localidad": "Cosoleacaque",
+      "domicilio": "Calle 20",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "96340",
+      "latitud": 18.00028,
+      "longitud": -94.60622,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0001j",
+      "cctJefaturaSector": "30fjt0006d",
+      "cctRegion": "30adg0070e",
+      "caracteristica1": "servicios",
+      "regionId": "XIII"
+    },
+    {
+      "id": "30DST0135R",
+      "cct": "30DST0135R",
+      "nombre": "Secundaria Tecnica Industrial Num.135",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Omealca",
+      "localidad": "Tenejápam de Mata",
+      "domicilio": "Calle Rancho la Loma",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "rural",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "94903",
+      "latitud": 18.76908,
+      "longitud": -96.87953,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0016l",
+      "cctJefaturaSector": "30fjt0004f",
+      "cctRegion": "30adg0061x",
+      "caracteristica1": "servicios",
+      "regionId": "IX"
+    },
+    {
+      "id": "30DST0136Q",
+      "cct": "30DST0136Q",
+      "nombre": "Secundaria Tecnica Industrial Num.136",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Veracruz",
+      "localidad": "Veracruz",
+      "domicilio": "Calle Rio Champoton",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "unidad habitacional",
+      "asentamiento": "Rio Medio",
+      "codigoPostal": "91190",
+      "latitud": 19.20559,
+      "longitud": -96.1939,
+      "turnos": [
+        "2 - vespertino",
+        "1 - matutino",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0020y",
+      "cctJefaturaSector": "30fjt0005e",
+      "cctRegion": "30adg0060y",
+      "caracteristica1": "servicios",
+      "regionId": "VIII"
+    },
+    {
+      "id": "30DST0137P",
+      "cct": "30DST0137P",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 137",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Soledad Atzompa",
+      "localidad": "Huitzila",
+      "domicilio": "Ninguno Ninguno",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "rural",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "92700",
+      "latitud": 18.71876,
+      "longitud": -97.16734,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0006e",
+      "cctJefaturaSector": "30fjt0004f",
+      "cctRegion": "30adg0088d",
+      "caracteristica1": "servicios",
+      "regionId": "X"
+    },
+    {
+      "id": "30DST0138O",
+      "cct": "30DST0138O",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 138",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Tlachichilco",
+      "localidad": "El Naranjal",
+      "domicilio": "Carretera Rumbo Atzicatlano",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "rural",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "92670",
+      "latitud": 20.72972,
+      "longitud": -98.16611,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0013o",
+      "cctJefaturaSector": "30fjt0001i",
+      "cctRegion": "30adg0010q",
+      "caracteristica1": "servicios",
+      "regionId": "III"
+    },
+    {
+      "id": "30DST0139N",
+      "cct": "30DST0139N",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 139",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Coatzintla",
+      "localidad": "Palma Sola",
+      "domicilio": "Calle 18 de Marzo",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "rural",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "93160",
+      "latitud": 20.44234,
+      "longitud": -97.55334,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0008c",
+      "cctJefaturaSector": "30fjt0002h",
+      "cctRegion": "30adg0020x",
+      "caracteristica1": "servicios",
+      "regionId": "IV"
+    },
+    {
+      "id": "30DST0140C",
+      "cct": "30DST0140C",
+      "nombre": "Secundaria Tecnica Industrial Num. 140",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Acayucan",
+      "localidad": "Acayucan",
+      "domicilio": "Carretera Costera del Golfo Acayucan - Catemaco Km 221",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "colonia",
+      "asentamiento": "Agricola Michapa",
+      "codigoPostal": "96000",
+      "latitud": 17.99331,
+      "longitud": -94.91964,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0011q",
+      "cctJefaturaSector": "30fjt0006d",
+      "cctRegion": "30adg0089c",
+      "caracteristica1": "servicios",
+      "regionId": "XIII"
+    },
+    {
+      "id": "30DST0141B",
+      "cct": "30DST0141B",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 141",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Álamo Temapache",
+      "localidad": "Villa Hermosa",
+      "domicilio": "Camino Rural Ojite",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "rural",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "92769",
+      "latitud": 20.95814,
+      "longitud": -97.58148,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0007d",
+      "cctJefaturaSector": "30fjt0002h",
+      "cctRegion": "30adg0010q",
+      "caracteristica1": "servicios",
+      "regionId": "III"
+    },
+    {
+      "id": "30DST0142A",
+      "cct": "30DST0142A",
+      "nombre": "Secundaria Tecnica Industrial Num. 142",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Tezonapa",
+      "localidad": "Villa Nueva (primera Manzana)",
+      "domicilio": "Ninguno Ninguno",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "rural",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "95080",
+      "latitud": 18.6308,
+      "longitud": -96.81617,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0016l",
+      "cctJefaturaSector": "30fjt0004f",
+      "cctRegion": "30adg0061x",
+      "caracteristica1": "servicios",
+      "regionId": "IX"
+    },
+    {
+      "id": "30DST0143Z",
+      "cct": "30DST0143Z",
+      "nombre": "Secundaria Tecnica Industrial Num. 143",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Coatzacoalcos",
+      "localidad": "Coatzacoalcos",
+      "domicilio": "Calle Palenque",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "colonia",
+      "asentamiento": "Teresa Morales Delgado",
+      "codigoPostal": "96536",
+      "latitud": 18.13646,
+      "longitud": -94.49934,
+      "turnos": [
+        "1 - matutino",
+        "2 - vespertino",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0019i",
+      "cctJefaturaSector": "30fjt0006d",
+      "cctRegion": "30adg0070e",
+      "caracteristica1": "servicios",
+      "regionId": "XIII"
+    },
+    {
+      "id": "30DST0144Z",
+      "cct": "30DST0144Z",
+      "nombre": "Secundaria Tecnica Industrial Num. 144",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Huatusco",
+      "localidad": "Huatusco de Chicuellar",
+      "domicilio": "Avenida 25 Pte",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "colonia",
+      "asentamiento": "Reserva Territorial",
+      "codigoPostal": "94106",
+      "latitud": 19.13767,
+      "longitud": -96.9744,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0002i",
+      "cctJefaturaSector": "30fjt0004f",
+      "cctRegion": "30adg0061x",
+      "caracteristica1": "servicios",
+      "regionId": "IX"
+    },
+    {
+      "id": "30DST0145Y",
+      "cct": "30DST0145Y",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 145",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Mecayapan",
+      "localidad": "Tonalapa",
+      "domicilio": "Calle Carretera a Tatahuicapan",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "rural",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "95930",
+      "latitud": 18.14801,
+      "longitud": -94.79118,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0001j",
+      "cctJefaturaSector": "30fjt0006d",
+      "cctRegion": "30adg0070e",
+      "caracteristica1": "servicios",
+      "regionId": "XIII"
+    },
+    {
+      "id": "30DST0146X",
+      "cct": "30DST0146X",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 146",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Uxpanapa",
+      "localidad": "Río Uxpanapa (poblado Catorce)",
+      "domicilio": "Calle Carretera Rural del Poblado 12 del 14",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "rural",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "96901",
+      "latitud": 17.16716,
+      "longitud": -94.15032,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0011q",
+      "cctJefaturaSector": "30fjt0006d",
+      "cctRegion": "30adg0089c",
+      "caracteristica1": "servicios",
+      "regionId": "XIII"
+    },
+    {
+      "id": "30DST0147W",
+      "cct": "30DST0147W",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 147",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Angel R. Cabada",
+      "localidad": "Ángel R. Cabada",
+      "domicilio": "Calle Adalberto Tejeda",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "colonia",
+      "asentamiento": "El Meson",
+      "codigoPostal": "95841",
+      "latitud": 18.60252,
+      "longitud": -95.43136,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0018j",
+      "cctJefaturaSector": "30fjt0005e",
+      "cctRegion": "30adg0060y",
+      "caracteristica1": "servicios",
+      "regionId": "XII"
+    },
+    {
+      "id": "30DST0148V",
+      "cct": "30DST0148V",
+      "nombre": "Secundaria Tecnica Industrial Num. 148",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Veracruz",
+      "localidad": "Veracruz",
+      "domicilio": "Avenida la Bamba",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "conjunto habitacional",
+      "asentamiento": "Geovillas del Puerto",
+      "codigoPostal": "91777",
+      "latitud": 19.15417,
+      "longitud": -96.16517,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0004g",
+      "cctJefaturaSector": "30fjt0005e",
+      "cctRegion": "30adg0060y",
+      "caracteristica1": "servicios",
+      "regionId": "VIII"
+    },
+    {
+      "id": "30DST0149U",
+      "cct": "30DST0149U",
+      "nombre": "Secundaria Tecnica Industrial Num. 149",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Tezonapa",
+      "localidad": "Rancho Nuevo",
+      "domicilio": "Calle Carretera Rancho Nuevo-tezonapa",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "rural",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "95085",
+      "latitud": 18.54303,
+      "longitud": -96.77594,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0021x",
+      "cctJefaturaSector": "30fjt0005e",
+      "cctRegion": "30adg0061x",
+      "caracteristica1": "servicios",
+      "regionId": "IX"
+    },
+    {
+      "id": "30DST0150J",
+      "cct": "30DST0150J",
+      "nombre": "Secundaria Tecnica Agropecuaria Num. 150",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Cosoleacaque",
+      "localidad": "Coacotla",
+      "domicilio": "Calle Miguel Hidalgo",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "96340",
+      "latitud": 17.9475,
+      "longitud": -94.65874,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0001j",
+      "cctJefaturaSector": "30fjt0006d",
+      "cctRegion": "30adg0070e",
+      "caracteristica1": "servicios",
+      "regionId": "XIII"
+    },
+    {
+      "id": "30DST0151I",
+      "cct": "30DST0151I",
+      "nombre": "Escuela Secundaria Tecnica Industrial Num. 151",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Soledad Atzompa",
+      "localidad": "Buena Vista",
+      "domicilio": "Ninguno Ninguno",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "rural",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "94770",
+      "latitud": 18.74911,
+      "longitud": -97.15335,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0006e",
+      "cctJefaturaSector": "30fjt0004f",
+      "cctRegion": "30adg0088d",
+      "caracteristica1": "servicios",
+      "regionId": "X"
+    },
+    {
+      "id": "30DST0152H",
+      "cct": "30DST0152H",
+      "nombre": "Escuela Secundaria Tecnica Agropecuaria Num. 152",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Atlahuilco",
+      "localidad": "Vista Hermosa",
+      "domicilio": "Ninguno Ninguno",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "rural",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "94770",
+      "latitud": 18.72009,
+      "longitud": -97.12961,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0006e",
+      "cctJefaturaSector": "30fjt0004f",
+      "cctRegion": "30adg0088d",
+      "caracteristica1": "servicios",
+      "regionId": "X"
+    },
+    {
+      "id": "30DST0153G",
+      "cct": "30DST0153G",
+      "nombre": "Escuela Secundaria Tecnica Industrial Num. 153",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Tequila",
+      "localidad": "Tequila",
+      "domicilio": "Calle Carretera Orizaba Zongolica",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "colonia",
+      "asentamiento": "Zona Centro",
+      "codigoPostal": "94480",
+      "latitud": 18.72365,
+      "longitud": -97.06807,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0006e",
+      "cctJefaturaSector": "30fjt0004f",
+      "cctRegion": "30adg0088d",
+      "caracteristica1": "servicios",
+      "regionId": "X"
+    },
+    {
+      "id": "30DST0154F",
+      "cct": "30DST0154F",
+      "nombre": "Escuela Secundaria Tecnica Industrial Num. 154",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Tlapacoyan",
+      "localidad": "Tlapacoyan",
+      "domicilio": "Calle Veracruz",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "colonia",
+      "asentamiento": "La Gallera",
+      "codigoPostal": "93650",
+      "latitud": 19.94822,
+      "longitud": -97.2133,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0010r",
+      "cctJefaturaSector": "30fjt0003g",
+      "cctRegion": "30adg0030d",
+      "caracteristica1": "servicios",
+      "regionId": "V"
+    },
+    {
+      "id": "30DST0155E",
+      "cct": "30DST0155E",
+      "nombre": "Escuela Secundaria Tecnica Agropecuaria Num. 155",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Coatzacoalcos",
+      "localidad": "Colorado",
+      "domicilio": "Calle Miguel Aleman",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "rural",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "96382",
+      "latitud": 18.15976,
+      "longitud": -94.32362,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0019i",
+      "cctJefaturaSector": "30fjt0006d",
+      "cctRegion": "30adg0070e",
+      "caracteristica1": "servicios",
+      "regionId": "XIII"
+    },
+    {
+      "id": "30DST0156D",
+      "cct": "30DST0156D",
+      "nombre": "Escuela Secundaria Tecnica Industrial Num. 156",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Tehuipango",
+      "localidad": "Xopilapa",
+      "domicilio": "Calle Ocotepec",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "rural",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "95030",
+      "latitud": 18.51705,
+      "longitud": -97.0772,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0006e",
+      "cctJefaturaSector": "30fjt0004f",
+      "cctRegion": "30adg0088d",
+      "caracteristica1": "servicios",
+      "regionId": "X"
+    },
+    {
+      "id": "30DST0157C",
+      "cct": "30DST0157C",
+      "nombre": "Escuela Secundaria Tecnica Industrial Num. 157",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Emiliano Zapata",
+      "localidad": "Rinconada",
+      "domicilio": "Calle Salvador Diaz Miron",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "91639",
+      "latitud": 19.36266,
+      "longitud": -96.56926,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0015m",
+      "cctJefaturaSector": "30fjt0003g",
+      "cctRegion": "30adg0084h",
+      "caracteristica1": "servicios",
+      "regionId": "VI"
+    },
+    {
+      "id": "30DST0158B",
+      "cct": "30DST0158B",
+      "nombre": "Escuela Secundaria Tecnica Industrial No. 158",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Cosoleacaque",
+      "localidad": "Cosoleacaque",
+      "domicilio": "Calle Guillermo Prieto",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "96840",
+      "latitud": 17.99906,
+      "longitud": -94.54951,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0001j",
+      "cctJefaturaSector": "30fjt0006d",
+      "cctRegion": "30adg0070e",
+      "caracteristica1": "servicios",
+      "regionId": "XIII"
+    },
+    {
+      "id": "30DST0159A",
+      "cct": "30DST0159A",
+      "nombre": "Escuela Secundaria Tecnica Agropecuaria Num. 159",
+      "modalidad": "agropecuaria",
+      "tipo": "escuela",
+      "municipio": "Filomeno Mata",
+      "localidad": "Filomeno Mata",
+      "domicilio": "Calle Carretera Filomeno Mata-chicontla Km 0.800",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "93100",
+      "latitud": 20.20024,
+      "longitud": -97.70286,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0014n",
+      "cctJefaturaSector": "30fjt0002h",
+      "cctRegion": "30adg0020x",
+      "caracteristica1": "servicios",
+      "regionId": "IV"
+    },
+    {
+      "id": "30DST0160Q",
+      "cct": "30DST0160Q",
+      "nombre": "Escuela Secundaria Tecnica Industrial No. 160",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Veracruz",
+      "localidad": "Veracruz",
+      "domicilio": "Calle Alpopoca",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "fraccionamiento",
+      "asentamiento": "Los Torrentes",
+      "codigoPostal": "91808",
+      "latitud": 19.20483,
+      "longitud": -96.21081,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0020y",
+      "cctJefaturaSector": "30fjt0005e",
+      "cctRegion": "30adg0060y",
+      "caracteristica1": "servicios",
+      "regionId": "VIII"
+    },
+    {
+      "id": "30DST0161P",
+      "cct": "30DST0161P",
+      "nombre": "Escuela Secundaria Tecnica Industrial Num. 161",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Chocamán",
+      "localidad": "Chocamán",
+      "domicilio": "Calle Benito Juarez",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "urbano",
+      "tipoAsentamiento": "colonia",
+      "asentamiento": "Centro",
+      "codigoPostal": "94160",
+      "latitud": 19.01645,
+      "longitud": -97.03194,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0002i",
+      "cctJefaturaSector": "30fjt0004f",
+      "cctRegion": "30adg0061x",
+      "caracteristica1": "servicios",
+      "regionId": "IX"
+    },
+    {
+      "id": "30DST0162O",
+      "cct": "30DST0162O",
+      "nombre": "Escuela Secundaria Tecnica Industrial Num. 162",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Tlaquilpa",
+      "localidad": "Pitzcuautla",
+      "domicilio": "Calle Carretera Tlaquilpa-pixcuautla Kilometro 6.5",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "rural",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "94800",
+      "latitud": 18.585,
+      "longitud": -97.10361,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0006e",
+      "cctJefaturaSector": "30fjt0004f",
+      "cctRegion": "30adg0088d",
+      "caracteristica1": "servicios",
+      "regionId": "X"
+    },
+    {
+      "id": "30DST0163N",
+      "cct": "30DST0163N",
+      "nombre": "Escuela Secundaria Tecnica Industrial No. 163",
+      "modalidad": "industrial",
+      "tipo": "escuela",
+      "municipio": "Emiliano Zapata",
+      "localidad": "Las Trancas",
+      "domicilio": "Circuito Lomas de Providencia",
+      "entidad": "Veracruz de Ignacio de la Llave",
+      "ambito": "rural",
+      "tipoAsentamiento": "ninguno",
+      "asentamiento": "Ninguno",
+      "codigoPostal": "91637",
+      "latitud": 19.49931,
+      "longitud": -96.85188,
+      "turnos": [
+        "1 - matutino",
+        "sin dato",
+        "sin dato"
+      ],
+      "servicios": [
+        "básica",
+        "secundaria",
+        "técnica"
+      ],
+      "sostenimiento": "público",
+      "subcontrol": "Federal Transferido",
+      "dependencias": [
+        "Presidencia de la República",
+        "Secretaría de Educación Pública",
+        "Sin Dato",
+        "Sin Dato"
+      ],
+      "cctSupervision": "30fzt0015m",
+      "cctJefaturaSector": "30fjt0003g",
+      "cctRegion": "30adg0084h",
+      "caracteristica1": "servicios",
+      "regionId": "VI"
+    }
+  ]
+}
