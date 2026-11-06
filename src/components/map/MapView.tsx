@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState, type MutableRefObject } from "react";
 import {
   MapContainer,
   TileLayer,
@@ -24,7 +24,7 @@ import "react-leaflet-cluster/dist/assets/MarkerCluster.Default.css";
 
 type VeracruzFeature = Feature<Polygon | MultiPolygon>;
 
-interface Escuela {
+export interface Escuela {
   id: string;
   cct: string;
   nombre: string;
@@ -37,9 +37,34 @@ interface Escuela {
   regionId: string;
 }
 
-interface Region {
+export interface Region {
   id: string;
   nombre: string;
+}
+
+
+export interface DatosBusqueda {
+  escuelas: Escuela[];
+  municipios: string[];
+  regiones: Region[];
+}
+
+export type SeleccionMapa =
+  | { tipo: "escuela"; escuela: Escuela }
+  | { tipo: "municipio"; nombre: string }
+  | { tipo: "region"; regionId: string };
+
+interface MapViewProps {
+  seleccion: SeleccionMapa | null;
+  onDatosCargados: (datos: DatosBusqueda) => void;
+}
+
+function normalizarTexto(valor: string) {
+  return valor
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLocaleLowerCase("es-MX")
+    .trim();
 }
 
 const COLORES = {
@@ -115,6 +140,82 @@ function AjustarVista({ feature }: { feature: VeracruzFeature }) {
   return null;
 }
 
+
+function EjecutarSeleccion({
+  seleccion,
+  municipios,
+  celdasRegionales,
+  marcadores,
+}: {
+  seleccion: SeleccionMapa | null;
+  municipios: FeatureCollection;
+  celdasRegionales: Feature[];
+  marcadores: MutableRefObject<Map<string, L.Marker>>;
+}) {
+  const map = useMap();
+
+  useEffect(() => {
+    if (!seleccion) return;
+
+    if (seleccion.tipo === "escuela") {
+      const escuela = seleccion.escuela;
+      const marcador = marcadores.current.get(escuela.cct);
+      if (!marcador) return;
+
+      const destino: L.LatLngExpression = [escuela.latitud, escuela.longitud];
+      const abrirPopup = () => marcador.openPopup();
+
+      if (
+        map.getZoom() >= 13 &&
+        map.getCenter().distanceTo(L.latLng(escuela.latitud, escuela.longitud)) < 30
+      ) {
+        abrirPopup();
+      } else {
+        map.once("moveend", abrirPopup);
+        map.flyTo(destino, 13, { duration: 0.8 });
+      }
+      return () => {
+        map.off("moveend", abrirPopup);
+      };
+    }
+
+    if (seleccion.tipo === "municipio") {
+      const nombreBuscado = normalizarTexto(seleccion.nombre);
+      const municipio = municipios.features.find((feature) => {
+        const propiedades = feature.properties ?? {};
+        const nombre =
+          propiedades.nomgeo ??
+          propiedades.NOMGEO ??
+          propiedades.NOM_MUN ??
+          propiedades.nombre ??
+          "";
+        return normalizarTexto(String(nombre)) === nombreBuscado;
+      });
+
+      if (municipio) {
+        const bounds = L.geoJSON(municipio as never).getBounds();
+        if (bounds.isValid()) {
+          map.fitBounds(bounds, { padding: [35, 35], maxZoom: 12, animate: true });
+        }
+      }
+      return;
+    }
+
+    const celdasRegion = celdasRegionales
+      .filter((celda) => String(celda.properties?.regionId ?? "") === seleccion.regionId)
+      .map((celda) => L.geoJSON(celda as never));
+
+    if (celdasRegion.length > 0) {
+      const bounds = L.featureGroup(celdasRegion).getBounds();
+      if (bounds.isValid()) {
+        map.fitBounds(bounds, { padding: [35, 35], maxZoom: 10, animate: true });
+      }
+    }
+  }, [seleccion, municipios, celdasRegionales, marcadores, map]);
+
+  return null;
+}
+
 function Leyenda({ regiones }: { regiones: Region[] }) {
   return (
     <div className="map-legend">
@@ -182,7 +283,7 @@ function crearCeldasVoronoi(
     );
 }
 
-function MapView() {
+function MapView({ seleccion, onDatosCargados }: MapViewProps) {
   const [veracruz, setVeracruz] = useState<VeracruzFeature | null>(null);
   const [municipios, setMunicipios] = useState<FeatureCollection | null>(null);
   const [mascara, setMascara] = useState<Feature | null>(null);
@@ -190,6 +291,7 @@ function MapView() {
   const [regiones, setRegiones] = useState<Region[]>([]);
   const [celdasRegionales, setCeldasRegionales] = useState<Feature[]>([]);
   const [error, setError] = useState("");
+  const marcadores = useRef<Map<string, L.Marker>>(new Map());
   useEffect(() => {
     async function cargarDatos() {
       try {
@@ -272,6 +374,20 @@ function MapView() {
         setMascara(resultado as Feature);
         setEscuelas(escuelasValidas);
         setRegiones(datosRegiones.regiones);
+        onDatosCargados({
+          escuelas: escuelasValidas,
+          municipios: coleccionMunicipios.features.map((feature) => {
+            const propiedades = feature.properties ?? {};
+            return String(
+              propiedades.nomgeo ??
+              propiedades.NOMGEO ??
+              propiedades.NOM_MUN ??
+              propiedades.nombre ??
+              ""
+            );
+          }).filter(Boolean),
+          regiones: datosRegiones.regiones,
+        });
         setCeldasRegionales(crearCeldasVoronoi(escuelasValidas, estado));
       } catch (err) {
         console.error(err);
@@ -283,7 +399,7 @@ function MapView() {
       }
     }
     cargarDatos();
-  }, []);
+  }, [onDatosCargados]);
   if (error) {
     return <div className="map-message error">{error}</div>;
   }
@@ -352,7 +468,7 @@ function MapView() {
       <GeoJSON
         data={municipios}
         style={{
-          color: "#526B80",
+          color: "#333333",
           weight: 1,
           opacity: 0.85,
           fillColor: "#FFFFFF",
@@ -378,7 +494,7 @@ function MapView() {
       <GeoJSON
         data={veracruz}
         style={{
-          color: "#167D55",
+          color: "#B85C18",
           weight: 3,
           fillOpacity: 0,
           interactive: false,
@@ -424,6 +540,10 @@ function MapView() {
       >
         {escuelas.map((escuela) => (
           <Marker
+            ref={(marcador) => {
+              if (marcador) marcadores.current.set(escuela.cct, marcador);
+              else marcadores.current.delete(escuela.cct);
+            }}
             key={escuela.cct}
             position={[escuela.latitud, escuela.longitud]}
             icon={crearIconoEscuela(escuela)}
@@ -454,6 +574,12 @@ function MapView() {
           </Marker>
         ))}
       </MarkerClusterGroup>
+      <EjecutarSeleccion
+        seleccion={seleccion}
+        municipios={municipios}
+        celdasRegionales={celdasRegionales}
+        marcadores={marcadores}
+      />
       <AjustarVista feature={veracruz} />
       <Leyenda regiones={regiones} />
     </MapContainer>

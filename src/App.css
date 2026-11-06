@@ -16,7 +16,7 @@
 .app-header {
   flex-shrink: 0;
   padding: 20px 32px;
-  background: #173d32;
+  background: #EF8910;
   color: white;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
   z-index: 1000;
@@ -29,7 +29,7 @@
 
 .app-header p {
   margin: 6px 0 0;
-  color: #d4e4dc;
+  color: #F3F4F6;
   font-size: 14px;
 }
 
@@ -62,7 +62,6 @@
 .map-message.error {
   color: #b42318;
 }
-
 
 /* Leyenda de modalidades */
 .map-legend {
@@ -117,4 +116,217 @@
 .school-popup p {
   margin: 5px 0;
   font-size: 12px;
+}
+
+/* =========================================
+   BUSCADOR DEL HEADER
+========================================= */
+
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+}
+
+.header-title {
+  min-width: 260px;
+}
+
+.search-container {
+  position: relative;
+  width: min(620px, 55%);
+  z-index: 1100;
+}
+
+.search-input-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 44px;
+  padding: 0 13px;
+  background: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+.search-input-wrapper:focus-within {
+  outline: 2px solid #a8d5bd;
+  outline-offset: 2px;
+}
+
+.search-icon {
+  width: 19px;
+  height: 19px;
+  flex: 0 0 auto;
+  fill: none;
+  stroke: #52616b;
+  stroke-width: 2;
+  stroke-linecap: round;
+}
+
+.search-input-wrapper input {
+  width: 100%;
+  min-width: 0;
+  height: 42px;
+  padding: 0;
+  color: #263746;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  font: inherit;
+  font-size: 14px;
+}
+
+.search-input-wrapper input::placeholder {
+  color: #89949c;
+}
+
+.search-input-wrapper input::-webkit-search-cancel-button {
+  display: none;
+}
+
+.clear-search {
+  flex: 0 0 auto;
+  width: 27px;
+  height: 27px;
+  padding: 0;
+  color: #52616b;
+  background: #edf1f2;
+  border: 0;
+  border-radius: 50%;
+  font-size: 21px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.search-results {
+  position: absolute;
+  top: calc(100% + 9px);
+  left: 0;
+  right: 0;
+  max-height: min(430px, 65vh);
+  overflow-y: auto;
+  background: #ffffff;
+  border: 1px solid #dce3e5;
+  border-radius: 9px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.22);
+  color: #263746;
+}
+
+.search-results-heading,
+.search-empty {
+  padding: 11px 14px;
+  color: #6b7780;
+  font-size: 12px;
+}
+
+.search-results-heading {
+  border-bottom: 1px solid #edf0f1;
+  font-weight: 700;
+}
+
+.search-result {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  width: 100%;
+  padding: 11px 14px;
+  text-align: left;
+  background: #ffffff;
+  border: 0;
+  border-bottom: 1px solid #edf0f1;
+  cursor: pointer;
+}
+
+.search-result:last-child {
+  border-bottom: 0;
+}
+
+.search-result:hover,
+.search-result:focus-visible {
+  background: #f1f7f3;
+  outline: none;
+}
+
+.result-type {
+  flex: 0 0 78px;
+  padding: 5px 6px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.result-escuela {
+  color: #176b48;
+  background: #e5f3eb;
+}
+
+.result-municipio {
+  color: #315d7a;
+  background: #e7f0f6;
+}
+
+.result-region {
+  color: #76531a;
+  background: #f8f0dc;
+}
+
+.result-content {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  min-width: 0;
+}
+
+.result-content strong {
+  overflow: hidden;
+  color: #263746;
+  font-size: 13px;
+  font-weight: 600;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.result-content small {
+  overflow: hidden;
+  color: #71808a;
+  font-size: 11px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media (max-width: 760px) {
+  .app-header {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 14px;
+    padding: 14px 16px;
+  }
+
+  .header-title {
+    min-width: 0;
+  }
+
+  .app-header h1 {
+    font-size: 20px;
+  }
+
+  .app-header p {
+    font-size: 12px;
+  }
+
+  .search-container {
+    width: 100%;
+  }
+
+  .search-input-wrapper input {
+    font-size: 13px;
+  }
+
+  .search-results {
+    max-height: 45vh;
+  }
 }
