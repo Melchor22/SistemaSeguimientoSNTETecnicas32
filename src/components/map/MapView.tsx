@@ -301,10 +301,10 @@ function MapView({ seleccion, onDatosCargados }: MapViewProps) {
           respuestaEscuelas,
           respuestaRegiones,
         ] = await Promise.all([
-          fetch("/data/veracruz.geojson"),
-          fetch("/data/municipios-veracruz.geojson"),
-          fetch("/data/escuelas-veracruz.json"),
-          fetch("/data/regiones-veracruz.json"),
+          fetch(`${import.meta.env.BASE_URL}data/veracruz.geojson`),
+          fetch(`${import.meta.env.BASE_URL}data/municipios-veracruz.geojson`),
+          fetch(`${import.meta.env.BASE_URL}data/escuelas-veracruz.json`),
+          fetch(`${import.meta.env.BASE_URL}data/regiones-veracruz.json`),
         ]);
         if (!respuestaEstado.ok) {
           throw new Error("No se pudo cargar el archivo de Veracruz.");
