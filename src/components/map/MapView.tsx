@@ -216,27 +216,6 @@ function EjecutarSeleccion({
   return null;
 }
 
-function Leyenda({ regiones }: { regiones: Region[] }) {
-  return (
-    <div className="map-legend">
-      <h3>Delegaciones regionales</h3>
-      {regiones.map((region) => (
-        <div className="legend-item" key={region.id}>
-          <span
-            className="legend-dot"
-            style={{ backgroundColor: COLORES_REGION[region.id] ?? "#999999" }}
-          />
-          <span>{region.id}. {region.nombre}</span>
-        </div>
-      ))}
-      <div className="legend-item" style={{ marginTop: 8 }}>
-        <span className="legend-dot" style={{ backgroundColor: "#526B80" }} />
-        <span>Límites municipales</span>
-      </div>
-    </div>
-  );
-}
-
 function crearCeldasVoronoi(
   escuelas: Escuela[],
   estado: VeracruzFeature
@@ -581,7 +560,6 @@ function MapView({ seleccion, onDatosCargados }: MapViewProps) {
         marcadores={marcadores}
       />
       <AjustarVista feature={veracruz} />
-      <Leyenda regiones={regiones} />
     </MapContainer>
   );
 }

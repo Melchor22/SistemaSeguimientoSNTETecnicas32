@@ -78,6 +78,7 @@ function App() {
           numero,
           escuela.modalidad,
           escuela.municipio,
+          escuela.localidad,
           escuela.regionId,
           region?.nombre ?? "",
           escuela.cct,
@@ -106,7 +107,7 @@ function App() {
       setSeleccion({ tipo: "region", regionId: resultado.regionId });
     }
 
-    setBusqueda(resultado.etiqueta);
+    setBusqueda("");
     setResultadosAbiertos(false);
   };
 
