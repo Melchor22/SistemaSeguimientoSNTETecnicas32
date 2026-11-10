@@ -130,10 +130,73 @@ function AjustarVista({ feature }: { feature: VeracruzFeature }) {
       map.fitBounds(bounds, { padding: [25, 25] });
       map.setMaxBounds(bounds.pad(0.35));
       map.setMinZoom(7);
-      map.setMaxZoom(14);
+      map.setMaxZoom(18);
     }
   }, [feature, map]);
   return null;
+}
+
+function RegionesVoronoi({
+  celdasRegionales,
+}: {
+  celdasRegionales: Feature[];
+}) {
+  const map = useMap();
+  const capasRef = useRef<L.GeoJSON[]>([]);
+
+  useEffect(() => {
+    const actualizarTransparencia = () => {
+      const zoom = map.getZoom();
+
+      // Reduce progresivamente la opacidad al acercarse.
+      const opacidad = Math.max(
+        0,
+        Math.min(0.32, 0.32 - (zoom - 7) * 0.045)
+      );
+
+      capasRef.current.forEach((capa) => {
+        capa.setStyle({
+          fillOpacity: opacidad,
+        });
+      });
+    };
+
+    actualizarTransparencia();
+
+    map.on("zoomend", actualizarTransparencia);
+
+    return () => {
+      map.off("zoomend", actualizarTransparencia);
+    };
+  }, [map]);
+
+  return (
+    <>
+      {celdasRegionales.map((celda, indice) => {
+        const regionId = String(celda.properties?.regionId ?? "");
+
+        return (
+          <GeoJSON
+            key={`voronoi-${regionId}-${indice}`}
+            data={celda as never}
+            ref={(capa) => {
+              if (capa) {
+                capasRef.current[indice] = capa;
+              }
+            }}
+            style={{
+              color: "transparent",
+              weight: 0,
+              fillColor: COLORES_REGION[regionId] ?? "#999999",
+              fillOpacity: 0.32,
+              renderer: RENDERER_CANVAS,
+            }}
+            interactive={false}
+          />
+        );
+      })}
+    </>
+  );
 }
 
 function EjecutarSeleccion({
@@ -377,30 +440,13 @@ function MapView({ seleccion, onDatosCargados }: MapViewProps) {
     >
       <TileLayer
         attribution='© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors © <a href="https://carto.com/attributions">CARTO</a>'
-        url={`https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png?key=${import.meta.env.VITE_CARTO_API_KEY}`}
+        url={`https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png?key=${import.meta.env.VITE_CARTO_API_KEY}`}
         subdomains="abcd"
         maxZoom={20}
       />
 
       {/* Áreas de influencia Voronoi coloreadas por delegación regional */}
-      {celdasRegionales.map((celda, indice) => {
-        const regionId = String(celda.properties?.regionId ?? "");
-        return (
-          <GeoJSON
-            key={`voronoi-${regionId}-${indice}`}
-            data={celda as never}
-            style={{
-              color: "transparent",
-              weight: 0,
-              opacity: 0,
-              fillColor: COLORES_REGION[regionId] ?? "#999999",
-              fillOpacity: 0.32,
-              renderer: RENDERER_CANVAS,
-            }}
-            interactive={false}
-          />
-        );
-      })}
+      <RegionesVoronoi celdasRegionales={celdasRegionales} />
 
       {/* La máscara se dibuja encima de Voronoi para ocultar las celdas
           que quedan fuera de Veracruz, sin recortar cada celda por separado. */}
