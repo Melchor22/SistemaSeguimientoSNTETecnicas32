@@ -17,6 +17,7 @@ import type {
 import difference from "@turf/difference";
 import voronoi from "@turf/voronoi";
 import simplify from "@turf/simplify";
+import intersect from "@turf/intersect";
 import { featureCollection, polygon, point } from "@turf/helpers";
 import MarkerClusterGroup from "react-leaflet-cluster";
 import "leaflet.markercluster";
@@ -247,7 +248,6 @@ function crearCeldasVoronoi(
   ];
 
   const resultado = voronoi(puntos, { bbox });
-
   const celdasRegionales: Feature[] = [];
 
   resultado.features.forEach((celda) => {
@@ -257,13 +257,23 @@ function crearCeldasVoronoi(
 
     if (!COLORES_REGION[regionId]) return;
 
-    celdasRegionales.push({
-      ...celda,
-      properties: {
-        ...celda.properties,
-        regionId,
-      },
-    } as Feature);
+    try {
+      const recortada = intersect(
+        featureCollection([celda, estado]) as never
+      );
+
+      if (!recortada?.geometry) return;
+
+      celdasRegionales.push({
+        ...recortada,
+        properties: {
+          ...celda.properties,
+          regionId,
+        },
+      } as Feature);
+    } catch (error) {
+      console.error(`Error al recortar región ${regionId}:`, error);
+    }
   });
 
   return celdasRegionales;
