@@ -16,6 +16,7 @@ import type {
 } from "geojson";
 import difference from "@turf/difference";
 import voronoi from "@turf/voronoi";
+import simplify from "@turf/simplify";
 import { featureCollection, polygon, point } from "@turf/helpers";
 import MarkerClusterGroup from "react-leaflet-cluster";
 import "leaflet.markercluster";
@@ -222,7 +223,10 @@ function crearCeldasVoronoi(
 ): Feature[] {
   const puntos = featureCollection(
     escuelas
-      .filter((escuela) => escuela.regionId && COLORES_REGION[escuela.regionId])
+      .filter(
+        (escuela) =>
+          escuela.regionId && COLORES_REGION[escuela.regionId]
+      )
       .map((escuela) =>
         point([escuela.longitud, escuela.latitud], {
           regionId: escuela.regionId,
@@ -230,36 +234,39 @@ function crearCeldasVoronoi(
         })
       )
   );
+
   if (puntos.features.length < 2) return [];
+
   const bounds = L.geoJSON(estado).getBounds();
+
   const bbox: [number, number, number, number] = [
     bounds.getWest(),
     bounds.getSouth(),
     bounds.getEast(),
     bounds.getNorth(),
   ];
-  // Turf genera las celdas dentro del rectángulo envolvente del estado.
-  // No intersectamos individualmente las 163 celdas con el contorno estatal,
-  // porque esa operación sobre una geometría estatal compleja puede bloquear
-  // el hilo principal y dejar la pantalla de carga sin terminar.
+
   const resultado = voronoi(puntos, { bbox });
-  return resultado.features
-    .filter((celda) => Boolean(celda?.geometry))
-    .map((celda) => {
-      const punto = puntos.features.find(
-        (item) => item.properties?.cct === celda.properties?.cct
-      );
-      return {
-        ...celda,
-        properties: {
-          ...celda.properties,
-          regionId: celda.properties?.regionId ?? punto?.properties?.regionId,
-        },
-      } as Feature;
-    })
-    .filter((celda) =>
-      Boolean(COLORES_REGION[String(celda.properties?.regionId ?? "")])
-    );
+
+  const celdasRegionales: Feature[] = [];
+
+  resultado.features.forEach((celda) => {
+    if (!celda?.geometry) return;
+
+    const regionId = String(celda.properties?.regionId ?? "");
+
+    if (!COLORES_REGION[regionId]) return;
+
+    celdasRegionales.push({
+      ...celda,
+      properties: {
+        ...celda.properties,
+        regionId,
+      },
+    } as Feature);
+  });
+
+  return celdasRegionales;
 }
 
 function MapView({ seleccion, onDatosCargados }: MapViewProps) {
@@ -301,13 +308,22 @@ function MapView({ seleccion, onDatosCargados }: MapViewProps) {
         const datosMunicipios = await respuestaMunicipios.json();
         const datosEscuelas = await respuestaEscuelas.json();
         const datosRegiones = await respuestaRegiones.json();
-        const estado: VeracruzFeature =
+        const estadoOriginal: VeracruzFeature =
           datosEstado.type === "FeatureCollection"
             ? datosEstado.features[0]
             : datosEstado;
-        if (!estado?.geometry) {
+
+        if (!estadoOriginal?.geometry) {
           throw new Error("La geometría de Veracruz no es válida.");
         }
+
+        // Simplificar la geometría una sola vez al cargar el mapa.
+        // Tolerancia aproximada: 55 metros.
+        const estado = simplify(estadoOriginal, {
+          tolerance: 0.0005,
+          highQuality: false,
+          mutate: false,
+        }) as VeracruzFeature;
         const coleccionMunicipios: FeatureCollection =
           datosMunicipios.type === "FeatureCollection"
             ? datosMunicipios
@@ -423,8 +439,8 @@ function MapView({ seleccion, onDatosCargados }: MapViewProps) {
       <GeoJSON
         data={mascara as never}
         style={{
-          fillColor: "#ffffff",
-          fillOpacity: 1,
+          fillColor: "#000000",
+          fillOpacity: 0.45,
           color: "transparent",
           weight: 0,
           renderer: RENDERER_CANVAS,
