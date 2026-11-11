@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState, type MutableRefObject } from "react";
+
 import {
   MapContainer,
   TileLayer,
@@ -7,17 +8,24 @@ import {
   useMap,
   Marker,
 } from "react-leaflet";
+
 import L from "leaflet";
+
 import type {
   Feature,
   FeatureCollection,
   Polygon,
   MultiPolygon,
 } from "geojson";
+
 import MarkerClusterGroup from "react-leaflet-cluster";
+
 import "leaflet.markercluster";
 import "react-leaflet-cluster/dist/assets/MarkerCluster.css";
-import "react-leaflet-cluster/dist/assets/MarkerCluster.Default.css";
+
+import { featureCollection } from "@turf/helpers";
+import { union } from "@turf/union";
+import { pointOnFeature } from "@turf/point-on-feature";
 
 type VeracruzFeature = Feature<Polygon | MultiPolygon>;
 
@@ -71,19 +79,19 @@ const COLORES = {
 
 // Paleta diferenciada para las 13 regiones.
 const COLORES_REGION: Record<string, string> = {
-  I: "#E76F51",
-  II: "#F4A261",
-  III: "#E9C46A",
-  IV: "#A8B95A",
-  V: "#2A9D8F",
-  VI: "#38A3A5",
-  VII: "#457B9D",
-  VIII: "#577590",
-  IX: "#7B6DAB",
-  X: "#9B5DE5",
-  XI: "#C06C84",
-  XII: "#D65A7A",
-  XIII: "#8D6E63",
+  I: "#E63946",     // Rojo
+  II: "#4361EE",    // Azul intenso
+  III: "#F4A261",   // Naranja
+  IV: "#7209B7",    // Morado
+  V: "#84A98C",     // Verde salvia
+  VI: "#F72585",    // Rosa intenso
+  VII: "#E9C46A",   // Amarillo
+  VIII: "#2A9D8F",  // Verde turquesa
+  IX: "#9B5DE5",    // Violeta
+  X: "#D65A31",     // Terracota
+  XI: "#4895EF",    // Azul claro
+  XII: "#C06C84",   // Rosa apagado
+  XIII: "#6C757D",  // Gris azulado
 };
 
 const RENDERER_CANVAS = L.canvas({
@@ -148,10 +156,10 @@ function RegionesVoronoi({
     const actualizarTransparencia = () => {
       const zoom = map.getZoom();
 
-      // Reduce progresivamente la opacidad al acercarse.
+      // Reduce progresivamente la opacidad a partir del zoom 10.
       const opacidad = Math.max(
         0,
-        Math.min(0.32, 0.32 - (zoom - 7) * 0.045)
+        Math.min(0.50, 0.50 - (zoom - 9) * 0.1)
       );
 
       capasRef.current.forEach((capa) => {
@@ -188,13 +196,118 @@ function RegionesVoronoi({
               color: "transparent",
               weight: 0,
               fillColor: COLORES_REGION[regionId] ?? "#999999",
-              fillOpacity: 0.32,
+              fillOpacity: 0.50,
               renderer: RENDERER_CANVAS,
             }}
             interactive={false}
           />
         );
       })}
+    </>
+  );
+}
+
+function EtiquetasRegionales({
+  celdasRegionales,
+  regiones,
+}: {
+  celdasRegionales: Feature[];
+  regiones: Region[];
+}) {
+  const map = useMap();
+  const [zoom, setZoom] = useState(map.getZoom());
+
+  useEffect(() => {
+    const actualizarZoom = () => setZoom(map.getZoom());
+
+    map.on("zoomend", actualizarZoom);
+
+    return () => {
+      map.off("zoomend", actualizarZoom);
+    };
+  }, [map]);
+
+  const posiciones: {
+    id: string;
+    nombre: string;
+    posicion: L.LatLng;
+  }[] = [];
+
+  regiones.forEach((region) => {
+    // Obtiene todas las celdas pertenecientes a la región.
+    const celdas = celdasRegionales.filter(
+      (celda) =>
+        String(celda.properties?.regionId ?? "") === region.id
+    );
+
+    if (!celdas.length) return;
+
+    try {
+      // Conserva únicamente las geometrías Polygon y MultiPolygon.
+      const celdasValidas: Feature<Polygon | MultiPolygon>[] =
+        celdas.filter(
+          (
+            celda
+          ): celda is Feature<Polygon | MultiPolygon> =>
+            celda.geometry.type === "Polygon" ||
+            celda.geometry.type === "MultiPolygon"
+        );
+
+      if (!celdasValidas.length) return;
+
+      // Construye una colección con todas las celdas de la región.
+      const coleccion = featureCollection(celdasValidas);
+
+      // Une todas las geometrías en una sola superficie regional.
+      const geometriaUnida = union(coleccion);
+
+      if (!geometriaUnida) return;
+
+      // Calcula un punto interior de toda la región.
+      const punto = pointOnFeature(geometriaUnida);
+
+      const [longitud, latitud] = punto.geometry.coordinates;
+
+      posiciones.push({
+        id: region.id,
+        nombre: `${region.id} ${region.nombre.toLocaleUpperCase("es-MX")}`,
+        posicion: L.latLng(latitud, longitud),
+      });
+    } catch (error) {
+      console.error(
+        `Error al calcular la posición de la región ${region.nombre}:`,
+        error
+      );
+    }
+  });
+
+  // Las etiquetas permanecen visibles desde el zoom mínimo.
+  if (zoom < 5) return null;
+
+  return (
+    <>
+      {posiciones.map((region) => (
+        <Marker
+          key={`region-label-${region.id}`}
+          position={region.posicion}
+          interactive={false}
+          keyboard={false}
+          zIndexOffset={10000}
+          icon={L.divIcon({
+            className: "region-label-container",
+            html: `
+              <div class="region-label">
+                <span class="region-label-id">${region.id}</span>
+                <span class="region-label-name">
+                  ${region.nombre.replace(region.id, "").trim()}
+                </span>
+              </div>
+            `,
+            iconSize: [200, 38],
+            iconAnchor: [100, 19],
+          })}
+        />
+      ))}
     </>
   );
 }
@@ -447,6 +560,12 @@ function MapView({ seleccion, onDatosCargados }: MapViewProps) {
 
       {/* Áreas de influencia Voronoi coloreadas por delegación regional */}
       <RegionesVoronoi celdasRegionales={celdasRegionales} />
+
+      {/* Etiquetas de las delegaciones regionales */}
+      <EtiquetasRegionales
+        celdasRegionales={celdasRegionales}
+        regiones={regiones}
+      />
 
       {/* La máscara se dibuja encima de Voronoi para ocultar las celdas
           que quedan fuera de Veracruz, sin recortar cada celda por separado. */}

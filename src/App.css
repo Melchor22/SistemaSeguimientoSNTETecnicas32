@@ -330,3 +330,26 @@
     max-height: 45vh;
   }
 }
+
+.region-label-container {
+  background: transparent;
+  border: none;
+}
+
+.region-label {
+  width: 180px;
+  color: #263238;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.8px;
+  text-align: center;
+  white-space: nowrap;
+  text-shadow:
+    -1px -1px 2px #ffffff,
+    1px -1px 2px #ffffff,
+    -1px 1px 2px #ffffff,
+    1px 1px 2px #ffffff,
+    0 0 5px #ffffff;
+  pointer-events: none;
+  user-select: none;
+}
